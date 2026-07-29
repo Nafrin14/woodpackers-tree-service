@@ -378,7 +378,7 @@ py-7\r
 shadow-xl\r
 text-white\r
 rounded-2xl\r
-`,children:[(0,$.jsx)(`h3`,{className:`\r
+`,children:[(0,$.jsx)(`p`,{className:`\r
 text-5xl\r
 font-serif\r
 text-[#C9A227]\r
@@ -401,7 +401,7 @@ bg-[#C9A227]\r
 text-xs\r
 uppercase\r
 tracking-[5px]\r
-text-[#526B45]\r
+text-[#355834]\r
 `,children:`About Us`})]}),(0,$.jsxs)(`h2`,{className:`\r
 text-5xl\r
 lg:text-6xl\r
@@ -412,7 +412,7 @@ text-[#123524]\r
 mt-8\r
 text-lg\r
 leading-relaxed\r
-text-[#364A3A]\r
+text-[#26382D]\r
 `,children:`Woodpeckers Tree Service provides professional tree care solutions with experience, precision, and respect for nature. Our skilled team helps protect your property while creating safe and beautiful outdoor environments.`}),(0,$.jsxs)(`div`,{className:`\r
 mt-10\r
 grid\r
@@ -422,26 +422,26 @@ gap-8\r
 border-l-2\r
 border-[#52734D]\r
 pl-5\r
-`,children:[(0,$.jsx)(`h3`,{className:`\r
+`,children:[(0,$.jsx)(`p`,{className:`\r
 text-4xl\r
 font-serif\r
 text-[#123524]\r
 `,children:`500+`}),(0,$.jsx)(`p`,{className:`\r
 mt-2\r
 text-sm\r
-text-[#364A3A]\r
+text-[#26382D]\r
 `,children:`Projects Completed`})]}),(0,$.jsxs)(`div`,{className:`\r
 border-l-2\r
 border-[#52734D]\r
 pl-5\r
-`,children:[(0,$.jsx)(`h3`,{className:`\r
+`,children:[(0,$.jsx)(`p`,{className:`\r
 text-4xl\r
 font-serif\r
 text-[#123524]\r
 `,children:`100%`}),(0,$.jsx)(`p`,{className:`\r
 mt-2\r
 text-sm\r
-text-[#364A3A]\r
+text-[#26382D]\r
 `,children:`Customer Satisfaction`})]})]}),(0,$.jsx)(`a`,{href:`#contact`,className:`\r
 inline-flex\r
 mt-10\r
@@ -545,82 +545,81 @@ transition\r
                       h-[2px]\r
                       bg-[#C9A227]\r
                     `})]})]},t))})]})})}function cm(){return(0,$.jsx)(`section`,{id:`whychoose`,className:`\r
-py-24\r
-bg-[#DCE8D5]\r
-overflow-hidden\r
-scroll-mt-32\r
-`,children:(0,$.jsxs)(`div`,{className:`\r
-container\r
-mx-auto\r
-px-6\r
-lg:px-12\r
-`,children:[(0,$.jsxs)(`div`,{className:`\r
-text-center\r
-max-w-3xl\r
-mx-auto\r
-mb-16\r
-`,children:[(0,$.jsx)(`span`,{className:`\r
-text-[#8A6418]\r
-uppercase\r
-tracking-[5px]\r
-font-medium\r
-text-sm\r
-`,children:`Why Choose Us`}),(0,$.jsxs)(`h2`,{className:`\r
-text-4xl\r
-md:text-6xl\r
-font-serif\r
-text-[#123524]\r
-mt-5\r
-leading-tight\r
-`,children:[`Trusted Tree Care`,(0,$.jsxs)(`span`,{className:`\r
-text-[#526B45]\r
-`,children:[` `,`Experts`]})]}),(0,$.jsx)(`p`,{className:`\r
-text-[#26382D]\r
-text-lg\r
-mt-5\r
-leading-relaxed\r
-`,children:`We provide professional tree services with safety, experience, and dedication.`})]}),(0,$.jsx)(`div`,{className:`\r
-grid\r
-sm:grid-cols-2\r
-lg:grid-cols-4\r
-gap-8\r
-`,children:[{icon:(0,$.jsx)(br,{}),title:`Licensed & Insured`,text:`Fully licensed and insured professionals providing safe and reliable tree care services.`},{icon:(0,$.jsx)(Tr,{}),title:`Experienced Arborists`,text:`Our skilled team uses expert techniques to maintain healthy and beautiful landscapes.`},{icon:(0,$.jsx)(wr,{}),title:`24/7 Emergency Service`,text:`Fast response emergency tree services whenever you need immediate assistance.`},{icon:(0,$.jsx)(vr,{}),title:`Customer Focused`,text:`We prioritize quality work, clear communication, and complete customer satisfaction.`}].map((e,t)=>(0,$.jsxs)(`div`,{className:`\r
-bg-[#F8F3E8]\r
-rounded-[40px]\r
-p-8\r
-shadow-xl\r
-border\r
-border-[#8FAF7A]\r
-hover:-translate-y-3\r
-transition-all\r
-duration-500\r
-`,children:[(0,$.jsx)(`div`,{className:`\r
-w-16\r
-h-16\r
-rounded-2xl\r
-bg-[#123524]\r
-text-[#C9A227]\r
-flex\r
-items-center\r
-justify-center\r
-text-3xl\r
-mb-6\r
-`,children:e.icon}),(0,$.jsx)(`h3`,{className:`\r
-text-2xl\r
-font-serif\r
-text-[#123524]\r
-mb-4\r
-`,children:e.title}),(0,$.jsx)(`p`,{className:`\r
-text-[#26382D]\r
-leading-relaxed\r
-`,children:e.text}),(0,$.jsx)(`div`,{className:`\r
-mt-6\r
-w-12\r
-h-[2px]\r
-bg-[#8A6418]\r
-`})]},t))})]})})}function lm(){return(0,$.jsx)(`section`,{id:`testimonials`,className:`\r
       py-24\r
-      bg-[#B8CBB0]\r
+      bg-[#DCE8D5]\r
+      overflow-hidden\r
+      scroll-mt-32\r
+      `,children:(0,$.jsxs)(`div`,{className:`\r
+        container\r
+        mx-auto\r
+        px-6\r
+        lg:px-12\r
+        `,children:[(0,$.jsxs)(`div`,{className:`\r
+          text-center\r
+          max-w-3xl\r
+          mx-auto\r
+          mb-16\r
+          `,children:[(0,$.jsx)(`span`,{className:`\r
+            text-[#8A6418]\r
+            uppercase\r
+            tracking-[5px]\r
+            font-medium\r
+            text-sm\r
+            `,children:`Why Choose Us`}),(0,$.jsxs)(`h2`,{className:`\r
+            text-4xl\r
+            md:text-6xl\r
+            font-serif\r
+            text-[#123524]\r
+            mt-5\r
+            `,children:[`Trusted Tree Care`,(0,$.jsxs)(`span`,{className:`\r
+              text-[#355834]\r
+              `,children:[` `,`Experts`]})]}),(0,$.jsx)(`p`,{className:`\r
+            text-[#26382D]\r
+            text-lg\r
+            mt-5\r
+            leading-relaxed\r
+            `,children:`We provide professional tree services with safety, experience, and dedication.`})]}),(0,$.jsx)(`div`,{className:`\r
+          grid\r
+          sm:grid-cols-2\r
+          lg:grid-cols-4\r
+          gap-8\r
+          `,children:[{icon:(0,$.jsx)(br,{}),title:`Licensed & Insured`,text:`Fully licensed and insured professionals providing safe and reliable tree care services.`},{icon:(0,$.jsx)(Tr,{}),title:`Experienced Arborists`,text:`Our skilled team uses expert techniques to maintain healthy and beautiful landscapes.`},{icon:(0,$.jsx)(wr,{}),title:`24/7 Emergency Service`,text:`Fast response emergency tree services whenever you need immediate assistance.`},{icon:(0,$.jsx)(vr,{}),title:`Customer Focused`,text:`We prioritize quality work, clear communication, and complete customer satisfaction.`}].map((e,t)=>(0,$.jsxs)(`div`,{className:`\r
+                bg-[#F8F3E8]\r
+                rounded-[40px]\r
+                p-8\r
+                shadow-xl\r
+                border\r
+                border-[#8FAF7A]\r
+                hover:-translate-y-3\r
+                transition-all\r
+                duration-500\r
+                `,children:[(0,$.jsx)(`div`,{className:`\r
+                  w-16\r
+                  h-16\r
+                  rounded-2xl\r
+                  bg-[#0F2A1D]\r
+                  text-[#C9A227]\r
+                  flex\r
+                  items-center\r
+                  justify-center\r
+                  text-3xl\r
+                  mb-6\r
+                  `,children:e.icon}),(0,$.jsx)(`h3`,{className:`\r
+                  text-2xl\r
+                  font-serif\r
+                  text-[#123524]\r
+                  mb-4\r
+                  `,children:e.title}),(0,$.jsx)(`p`,{className:`\r
+                  text-[#26382D]\r
+                  leading-relaxed\r
+                  `,children:e.text}),(0,$.jsx)(`div`,{className:`\r
+                  mt-6\r
+                  w-12\r
+                  h-[2px]\r
+                  bg-[#8A6418]\r
+                  `})]},t))})]})})}function lm(){return(0,$.jsx)(`section`,{id:`testimonials`,className:`\r
+      py-24\r
+      bg-[#DCE8D5]\r
       overflow-hidden\r
       `,children:(0,$.jsxs)(`div`,{className:`\r
         container\r
@@ -633,30 +632,29 @@ bg-[#8A6418]\r
           mx-auto\r
           mb-16\r
           `,children:[(0,$.jsx)(`span`,{className:`\r
-            text-[#52734D]\r
+            text-[#355834]\r
             uppercase\r
             tracking-[5px]\r
-            text-sm\r
             font-medium\r
-            `,children:`Testimonials`}),(0,$.jsxs)(`h2`,{className:`\r
+            text-sm\r
+            `,children:`Testimonials`}),(0,$.jsx)(`h2`,{className:`\r
             text-4xl\r
             md:text-6xl\r
             font-serif\r
             text-[#123524]\r
             mt-5\r
-            `,children:[`What Our Clients`,(0,$.jsxs)(`span`,{className:`\r
-              text-[#355834]\r
-              `,children:[` `,`Say`]})]}),(0,$.jsx)(`p`,{className:`\r
-            text-[#364A3A]\r
+            `,children:`What Our Clients Say`}),(0,$.jsx)(`p`,{className:`\r
+            text-[#26382D]\r
             text-lg\r
             mt-5\r
-            `,children:`Trusted by homeowners who choose professional tree care services.`})]}),(0,$.jsx)(`div`,{className:`\r
+            leading-relaxed\r
+            `,children:`Trusted by homeowners who choose professional tree care services for their properties.`})]}),(0,$.jsx)(`div`,{className:`\r
           grid\r
           md:grid-cols-3\r
           gap-8\r
-          `,children:[{name:`Michael Anderson`,location:`Roslyn, NY`,review:`Excellent tree service! The team was professional, fast, and left my property cleaner than before. Highly recommended.`},{name:`Sarah Williams`,location:`Roslyn, NY`,review:`They removed a dangerous tree safely and efficiently. Great communication and outstanding workmanship.`},{name:`David Miller`,location:`New York`,review:`Very reliable company. Their tree trimming service improved the look of our entire landscape.`}].map((e,t)=>(0,$.jsxs)(`div`,{className:`\r
-                bg-[#EEF3E8]\r
-                rounded-3xl\r
+          `,children:[{name:`Michael Johnson`,role:`Homeowner`,text:`Excellent tree service! The team was professional, safe, and completed the job perfectly. Highly recommended.`},{name:`Sarah Williams`,role:`Property Owner`,text:`Very reliable and experienced arborists. They transformed our yard and provided outstanding service.`},{name:`David Anderson`,role:`Residential Client`,text:`Fast response, great communication, and quality workmanship. I would definitely hire them again.`}].map((e,t)=>(0,$.jsxs)(`div`,{className:`\r
+                bg-[#F8F3E8]\r
+                rounded-[40px]\r
                 p-8\r
                 shadow-xl\r
                 border\r
@@ -666,27 +664,29 @@ bg-[#8A6418]\r
                 duration-500\r
                 `,children:[(0,$.jsx)(`div`,{className:`\r
                   flex\r
-                  gap-1\r
-                  mb-6\r
+                  gap-2\r
                   text-[#C9A227]\r
-                  `,children:[...[,,,,,]].map((e,t)=>(0,$.jsx)(yr,{fill:`currentColor`},t))}),(0,$.jsxs)(`p`,{className:`\r
-                  text-[#364A3A]\r
+                  mb-6\r
+                  `,children:[1,2,3,4,5].map(e=>(0,$.jsx)(yr,{className:`\r
+                        fill-current\r
+                        `},e))}),(0,$.jsxs)(`p`,{className:`\r
+                  text-[#26382D]\r
                   leading-relaxed\r
-                  mb-8\r
-                  `,children:[`"`,e.review,`"`]}),(0,$.jsxs)(`div`,{children:[(0,$.jsx)(`h3`,{className:`\r
+                  text-lg\r
+                  `,children:[`"`,e.text,`"`]}),(0,$.jsxs)(`div`,{className:`\r
+                  mt-8\r
+                  border-t\r
+                  border-[#8FAF7A]\r
+                  pt-6\r
+                  `,children:[(0,$.jsx)(`h3`,{className:`\r
                     text-xl\r
                     font-serif\r
                     text-[#123524]\r
                     `,children:e.name}),(0,$.jsx)(`p`,{className:`\r
                     text-sm\r
-                    text-[#52734D]\r
+                    text-[#355834]\r
                     mt-1\r
-                    `,children:e.location})]}),(0,$.jsx)(`div`,{className:`\r
-                  mt-6\r
-                  w-12\r
-                  h-[2px]\r
-                  bg-[#C9A227]\r
-                  `})]},t))})]})})}function um(){return(0,$.jsx)(`section`,{id:`contact`,className:`\r
+                    `,children:e.role})]})]},t))})]})})}function um(){return(0,$.jsx)(`section`,{id:`contact`,className:`\r
       py-24\r
       bg-[#B8CBB0]\r
       overflow-hidden\r
