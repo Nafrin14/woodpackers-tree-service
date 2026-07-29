@@ -13,8 +13,12 @@ const WhyChooseUs = lazy(() => import("./components/WhyChooseUs"));
 const Testimonials = lazy(() => import("./components/Testimonials"));
 const Contact = lazy(() => import("./components/Contact"));
 
+
+// Lazy load pages
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
+
+
 
 
 
@@ -26,21 +30,46 @@ function Home() {
 
       <Hero />
 
-      <About />
+      <Suspense
 
-      <Services />
+        fallback={
 
-      <WhyChooseUs />
+          <div className="
+            min-h-screen
+            flex
+            items-center
+            justify-center
+            text-[#123524]
+            text-xl
+          ">
 
-      <Testimonials />
+            Loading...
 
-      <Contact />
+          </div>
+
+        }
+
+      >
+
+        <About />
+
+        <Services />
+
+        <WhyChooseUs />
+
+        <Testimonials />
+
+        <Contact />
+
+      </Suspense>
 
     </>
 
   );
 
 }
+
+
 
 
 
@@ -56,6 +85,7 @@ function App() {
       <Navbar />
 
 
+
       <main>
 
 
@@ -63,18 +93,14 @@ function App() {
 
           fallback={
 
-            <div
-
-              className="
+            <div className="
               min-h-screen
               flex
               items-center
               justify-center
               text-[#123524]
               text-xl
-              "
-
-            >
+            ">
 
               Loading...
 
@@ -85,7 +111,9 @@ function App() {
         >
 
 
+
           <Routes>
+
 
 
             <Route
@@ -100,7 +128,7 @@ function App() {
 
             <Route
 
-              path="/Privacy"
+              path="/privacy"
 
               element={<Privacy />}
 
@@ -127,13 +155,16 @@ function App() {
             />
 
 
+
           </Routes>
+
 
 
         </Suspense>
 
 
       </main>
+
 
 
 
@@ -145,6 +176,7 @@ function App() {
   );
 
 }
+
 
 
 export default App;
