@@ -364,9 +364,10 @@ relative\r
 overflow-hidden\r
 rounded-[50px_180px_50px_180px]\r
 shadow-2xl\r
-`,children:(0,$.jsx)(`img`,{src:tm,alt:`Woodpeckers Tree Service`,loading:`lazy`,className:`\r
+aspect-[1000/620]\r
+`,children:(0,$.jsx)(`img`,{src:tm,alt:`Woodpeckers Tree Service`,width:`1000`,height:`620`,loading:`lazy`,className:`\r
 w-full\r
-h-[620px]\r
+h-full\r
 object-cover\r
 `})}),(0,$.jsxs)(Yp.div,{animate:{y:[0,-12,0]},transition:{duration:4,repeat:1/0},className:`\r
 absolute\r
@@ -401,7 +402,7 @@ bg-[#C9A227]\r
 text-xs\r
 uppercase\r
 tracking-[5px]\r
-text-[#355834]\r
+text-[#526B45]\r
 `,children:`About Us`})]}),(0,$.jsxs)(`h2`,{className:`\r
 text-5xl\r
 lg:text-6xl\r
@@ -412,7 +413,7 @@ text-[#123524]\r
 mt-8\r
 text-lg\r
 leading-relaxed\r
-text-[#26382D]\r
+text-[#364A3A]\r
 `,children:`Woodpeckers Tree Service provides professional tree care solutions with experience, precision, and respect for nature. Our skilled team helps protect your property while creating safe and beautiful outdoor environments.`}),(0,$.jsxs)(`div`,{className:`\r
 mt-10\r
 grid\r
@@ -429,7 +430,7 @@ text-[#123524]\r
 `,children:`500+`}),(0,$.jsx)(`p`,{className:`\r
 mt-2\r
 text-sm\r
-text-[#26382D]\r
+text-[#364A3A]\r
 `,children:`Projects Completed`})]}),(0,$.jsxs)(`div`,{className:`\r
 border-l-2\r
 border-[#52734D]\r
@@ -441,7 +442,7 @@ text-[#123524]\r
 `,children:`100%`}),(0,$.jsx)(`p`,{className:`\r
 mt-2\r
 text-sm\r
-text-[#26382D]\r
+text-[#364A3A]\r
 `,children:`Customer Satisfaction`})]})]}),(0,$.jsx)(`a`,{href:`#contact`,className:`\r
 inline-flex\r
 mt-10\r
