@@ -1,44 +1,40 @@
 import { Routes, Route } from "react-router-dom";
-
+import { lazy, Suspense } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import WhyChooseUs from "./components/WhyChooseUs";
+// Lazy load components
+const Hero = lazy(() => import("./components/Hero"));
+const About = lazy(() => import("./components/About"));
+const Services = lazy(() => import("./components/Services"));
+const WhyChooseUs = lazy(() => import("./components/WhyChooseUs"));
+const Testimonials = lazy(() => import("./components/Testimonials"));
+const Contact = lazy(() => import("./components/Contact"));
 
-import Testimonials from "./components/Testimonials";
-import Contact from "./components/Contact";
-
-
-import Privacy from "./pages/Privacy";
-import Terms from "./pages/Terms";
-
+const Privacy = lazy(() => import("./pages/Privacy"));
+const Terms = lazy(() => import("./pages/Terms"));
 
 
 
-function Home(){
+function Home() {
 
-  return(
+  return (
 
     <>
 
-      <Hero/>
+      <Hero />
 
-      <About/>
+      <About />
 
-      <Services/>
+      <Services />
 
-      <WhyChooseUs/>
+      <WhyChooseUs />
 
-      
+      <Testimonials />
 
-      <Testimonials/>
-
-      <Contact/>
+      <Contact />
 
     </>
 
@@ -49,53 +45,99 @@ function Home(){
 
 
 
+function App() {
 
-function App(){
 
-
-  return(
+  return (
 
     <>
 
 
-      <Navbar/>
+      <Navbar />
 
 
-      <Routes>
+      <main>
 
 
-        <Route
+        <Suspense
 
-          path="/"
+          fallback={
 
-          element={<Home/>}
+            <div
 
-        />
+              className="
+              min-h-screen
+              flex
+              items-center
+              justify-center
+              text-[#123524]
+              text-xl
+              "
 
+            >
 
-        <Route
+              Loading...
 
-          path="/privacy"
+            </div>
 
-          element={<Privacy/>}
+          }
 
-        />
-
-
-        <Route
-
-          path="/terms"
-
-          element={<Terms/>}
-
-        />
-
-
-      </Routes>
+        >
 
 
+          <Routes>
 
-      <Footer/>
+
+            <Route
+
+              path="/"
+
+              element={<Home />}
+
+            />
+
+
+
+            <Route
+
+              path="/Privacy"
+
+              element={<Privacy />}
+
+            />
+
+
+
+            <Route
+
+              path="/terms"
+
+              element={<Terms />}
+
+            />
+
+
+
+            <Route
+
+              path="*"
+
+              element={<Home />}
+
+            />
+
+
+          </Routes>
+
+
+        </Suspense>
+
+
+      </main>
+
+
+
+      <Footer />
 
 
     </>
@@ -103,7 +145,6 @@ function App(){
   );
 
 }
-
 
 
 export default App;

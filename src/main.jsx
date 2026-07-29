@@ -12,7 +12,7 @@ ReactDOM.createRoot(
 
   <React.StrictMode>
 
-    <BrowserRouter>
+    <BrowserRouter basename="/woodpackers-tree-service/">
 
       <App />
 

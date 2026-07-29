@@ -9,28 +9,29 @@ function Testimonials() {
   const testimonials = [
 
     {
-      name: "Michael Anderson",
-      location: "Roslyn, NY",
-      review:
-        "Excellent tree service! The team was professional, fast, and left my property cleaner than before. Highly recommended.",
+      name: "Michael Johnson",
+      role: "Homeowner",
+      text:
+        "Excellent tree service! The team was professional, safe, and completed the job perfectly. Highly recommended."
     },
+
 
     {
       name: "Sarah Williams",
-      location: "Roslyn, NY",
-      review:
-        "They removed a dangerous tree safely and efficiently. Great communication and outstanding workmanship.",
+      role: "Property Owner",
+      text:
+        "Very reliable and experienced arborists. They transformed our yard and provided outstanding service."
     },
 
+
     {
-      name: "David Miller",
-      location: "New York",
-      review:
-        "Very reliable company. Their tree trimming service improved the look of our entire landscape.",
+      name: "David Anderson",
+      role: "Residential Client",
+      text:
+        "Fast response, great communication, and quality workmanship. I would definitely hire them again."
     }
 
   ];
-
 
 
 
@@ -44,7 +45,7 @@ function Testimonials() {
 
       className="
       py-24
-      bg-[#B8CBB0]
+      bg-[#DCE8D5]
       overflow-hidden
       "
 
@@ -62,6 +63,7 @@ function Testimonials() {
         "
 
       >
+
 
 
 
@@ -86,11 +88,11 @@ function Testimonials() {
           <span
 
             className="
-            text-[#52734D]
+            text-[#355834]
             uppercase
             tracking-[5px]
-            text-sm
             font-medium
+            text-sm
             "
 
           >
@@ -115,20 +117,7 @@ function Testimonials() {
 
           >
 
-            What Our Clients
-
-
-            <span
-
-              className="
-              text-[#355834]
-              "
-
-            >
-
-              {" "}Say
-
-            </span>
+            What Our Clients Say
 
 
           </h2>
@@ -142,15 +131,16 @@ function Testimonials() {
           <p
 
             className="
-            text-[#364A3A]
+            text-[#26382D]
             text-lg
             mt-5
+            leading-relaxed
             "
 
           >
 
             Trusted by homeowners who choose professional
-            tree care services.
+            tree care services for their properties.
 
           </p>
 
@@ -182,7 +172,6 @@ function Testimonials() {
 
 
 
-
           {
             testimonials.map((item,index)=>(
 
@@ -193,8 +182,8 @@ function Testimonials() {
                 key={index}
 
                 className="
-                bg-[#EEF3E8]
-                rounded-3xl
+                bg-[#F8F3E8]
+                rounded-[40px]
                 p-8
                 shadow-xl
                 border
@@ -210,8 +199,6 @@ function Testimonials() {
 
 
 
-
-
                 {/* Stars */}
 
 
@@ -220,28 +207,28 @@ function Testimonials() {
 
                   className="
                   flex
-                  gap-1
-                  mb-6
+                  gap-2
                   text-[#C9A227]
+                  mb-6
                   "
 
                 >
 
-
                   {
-                    [...Array(5)].map((_,i)=>(
+                    [1,2,3,4,5].map((star)=>(
 
                       <FiStar
 
-                        key={i}
+                        key={star}
 
-                        fill="currentColor"
+                        className="
+                        fill-current
+                        "
 
                       />
 
                     ))
                   }
-
 
                 </div>
 
@@ -251,23 +238,17 @@ function Testimonials() {
 
 
 
-
-
-                {/* Review */}
-
-
-
                 <p
 
                   className="
-                  text-[#364A3A]
+                  text-[#26382D]
                   leading-relaxed
-                  mb-8
+                  text-lg
                   "
 
                 >
 
-                  "{item.review}"
+                  "{item.text}"
 
                 </p>
 
@@ -277,13 +258,17 @@ function Testimonials() {
 
 
 
+                <div
 
+                  className="
+                  mt-8
+                  border-t
+                  border-[#8FAF7A]
+                  pt-6
+                  "
 
-                {/* Client */}
+                >
 
-
-
-                <div>
 
 
                   <h3
@@ -303,17 +288,18 @@ function Testimonials() {
 
 
 
+
                   <p
 
                     className="
                     text-sm
-                    text-[#52734D]
+                    text-[#355834]
                     mt-1
                     "
 
                   >
 
-                    {item.location}
+                    {item.role}
 
                   </p>
 
@@ -327,35 +313,12 @@ function Testimonials() {
 
 
 
-
-
-                {/* Bottom Line */}
-
-
-
-                <div
-
-                  className="
-                  mt-6
-                  w-12
-                  h-[2px]
-                  bg-[#C9A227]
-                  "
-
-                />
-
-
-
-
-
               </div>
 
 
 
             ))
           }
-
-
 
 
 
@@ -376,7 +339,6 @@ function Testimonials() {
 
 
   );
-
 
 }
 

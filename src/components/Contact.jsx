@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from "react";
+
 import {
   FiPhone,
   FiMapPin,
@@ -8,6 +10,53 @@ import {
 
 
 function Contact() {
+
+
+  const formRef = useRef(null);
+
+  const [loadForm, setLoadForm] = useState(false);
+
+
+
+  useEffect(() => {
+
+
+    const observer = new IntersectionObserver(
+
+      ([entry]) => {
+
+        if(entry.isIntersecting){
+
+          setLoadForm(true);
+
+          observer.disconnect();
+
+        }
+
+      },
+
+      {
+        threshold:0.2
+      }
+
+    );
+
+
+
+    if(formRef.current){
+
+      observer.observe(formRef.current);
+
+    }
+
+
+
+    return () => observer.disconnect();
+
+
+  }, []);
+
+
 
 
   return (
@@ -52,6 +101,7 @@ function Contact() {
 
         >
 
+
           <span
 
             className="
@@ -74,6 +124,7 @@ function Contact() {
 
 
 
+
           <h2
 
             className="
@@ -88,19 +139,15 @@ function Contact() {
 
             Get Your Free
 
-            <span
-
-              className="
-              text-[#52734D]
-              "
-
-            >
+            <span className="text-[#52734D]">
 
               {" "}Estimate
 
             </span>
 
+
           </h2>
+
 
 
 
@@ -129,6 +176,8 @@ function Contact() {
 
 
 
+
+
         <div
 
           className="
@@ -147,7 +196,6 @@ function Contact() {
         {/* LEFT CONTENT */}
 
 
-
         <div
 
           className="
@@ -158,8 +206,6 @@ function Contact() {
 
 
 
-
-        {/* Trust Card */}
 
 
         <div
@@ -176,6 +222,7 @@ function Contact() {
         >
 
 
+
           <h3
 
             className="
@@ -190,6 +237,7 @@ function Contact() {
             Professional Tree Care You Can Trust
 
           </h3>
+
 
 
 
@@ -212,22 +260,27 @@ function Contact() {
 
 
 
+
           <div className="space-y-4">
 
 
           {[
+
             {
               icon:<FiShield/>,
               text:"Licensed & Insured Professionals"
             },
+
             {
               icon:<FiAward/>,
               text:"Experienced Tree Specialists"
             },
+
             {
               icon:<FiClock/>,
               text:"24/7 Emergency Service"
             }
+
 
           ].map((item,index)=>(
 
@@ -243,6 +296,7 @@ function Contact() {
               "
 
             >
+
 
               <div
 
@@ -291,7 +345,7 @@ function Contact() {
 
 
 
-        {/* Phone */}
+        {/* PHONE */}
 
 
         <div
@@ -332,14 +386,10 @@ function Contact() {
           </div>
 
 
+
           <div>
 
-            <p className="
-            text-[#364A3A]
-            text-sm
-            uppercase
-            tracking-wider
-            ">
+            <p className="text-[#364A3A] text-sm uppercase tracking-wider">
 
               Call Us
 
@@ -373,7 +423,10 @@ function Contact() {
 
 
 
-        {/* Location */}
+
+
+
+        {/* LOCATION */}
 
 
 
@@ -416,18 +469,16 @@ function Contact() {
 
 
 
+
           <div>
 
-            <p className="
-            text-[#364A3A]
-            text-sm
-            uppercase
-            tracking-wider
-            ">
+
+            <p className="text-[#364A3A] text-sm uppercase tracking-wider">
 
               Service Area
 
             </p>
+
 
 
             <h3
@@ -445,13 +496,17 @@ function Contact() {
             </h3>
 
 
+
           </div>
 
 
         </div>
 
 
+
         </div>
+
+
 
 
 
@@ -468,6 +523,8 @@ function Contact() {
 
         <div
 
+          ref={formRef}
+
           className="
           bg-[#EEF3E8]
           rounded-3xl
@@ -478,6 +535,7 @@ function Contact() {
           "
 
         >
+
 
 
           <h3
@@ -497,6 +555,7 @@ function Contact() {
 
 
 
+
           <p
 
             className="
@@ -510,6 +569,13 @@ function Contact() {
 
           </p>
 
+
+
+
+
+          {
+
+          loadForm ? (
 
 
           <iframe
@@ -533,7 +599,36 @@ function Contact() {
           />
 
 
+
+          ) : (
+
+
+          <div
+
+            className="
+            h-[900px]
+            flex
+            items-center
+            justify-center
+            text-[#52734D]
+            "
+
+          >
+
+            Loading form...
+
+          </div>
+
+
+          )
+
+
+          }
+
+
+
         </div>
+
 
 
 
@@ -550,7 +645,6 @@ function Contact() {
     </section>
 
   );
-
 
 }
 

@@ -47,261 +47,259 @@ function WhyChooseUs() {
 
 
 
-
-
-
   return (
 
+    <section
 
-<section
+      id="whychoose"
 
-id="whychoose"
+      className="
+      py-24
+      bg-[#DCE8D5]
+      overflow-hidden
+      scroll-mt-32
+      "
 
-className="
-py-24
-bg-[#B8CBB0]
-overflow-hidden
-scroll-mt-32
-"
+    >
 
->
 
 
-<div
+      <div
 
-className="
-container
-mx-auto
-px-6
-lg:px-12
-"
+        className="
+        container
+        mx-auto
+        px-6
+        lg:px-12
+        "
 
->
+      >
 
 
 
 
 
+        {/* Heading */}
 
 
 
-{/* Heading */}
+        <div
 
+          className="
+          text-center
+          max-w-3xl
+          mx-auto
+          mb-16
+          "
 
-<div
+        >
 
-className="
-text-center
-max-w-3xl
-mx-auto
-mb-16
-"
 
->
 
+          <span
 
-<span
+            className="
+            text-[#6B4F12]
+            uppercase
+            tracking-[5px]
+            font-medium
+            text-sm
+            "
 
-className="
-text-[#C9A227]
-uppercase
-tracking-[5px]
-font-medium
-text-sm
-"
+          >
 
->
+            Why Choose Us
 
-Why Choose Us
+          </span>
 
-</span>
 
 
 
 
 
 
+          <h2
 
-<h2
+            className="
+            text-4xl
+            md:text-6xl
+            font-serif
+            text-[#123524]
+            mt-5
+            leading-tight
+            "
 
-className="
-text-4xl
-md:text-6xl
-font-serif
-text-[#123524]
-mt-5
-"
+          >
 
->
+            Trusted Tree Care
 
-Trusted Tree Care
 
+            <span
 
-<span
+              className="
+              text-[#355834]
+              "
 
-className="
-text-[#526B45]
-"
+            >
 
->
+              {" "}Experts
 
-{" "}Experts
+            </span>
 
-</span>
 
+          </h2>
 
-</h2>
 
 
 
 
 
 
+          <p
 
+            className="
+            text-[#26382D]
+            text-lg
+            mt-5
+            leading-relaxed
+            "
 
+          >
 
-<p
+            We provide professional tree services with
+            safety, experience, and dedication.
 
-className="
-text-[#364A3A]
-text-lg
-mt-5
-leading-relaxed
-"
+          </p>
 
->
 
-We provide professional tree services with
-safety, experience, and dedication.
 
-</p>
+        </div>
 
 
 
-</div>
 
 
 
 
 
 
+        {/* Cards */}
 
 
 
-{/* Cards */}
+        <div
 
+          className="
+          grid
+          sm:grid-cols-2
+          lg:grid-cols-4
+          gap-8
+          "
 
+        >
 
-<div
 
-className="
-grid
-sm:grid-cols-2
-lg:grid-cols-4
-gap-8
-"
 
->
+          {
 
+            reasons.map((item,index)=>(
 
-{
 
-reasons.map((item,index)=>(
 
+              <div
 
+                key={index}
 
-<div
+                className="
+                bg-[#F8F3E8]
+                rounded-[40px]
+                p-8
+                shadow-xl
+                border
+                border-[#8FAF7A]
+                hover:-translate-y-3
+                transition-all
+                duration-500
+                "
 
-key={index}
+              >
 
-className="
-bg-[#F8F3E8]
-rounded-[40px]
-p-8
-shadow-xl
-border
-border-[#8FAF7A]
-hover:-translate-y-3
-transition-all
-duration-500
-"
 
->
 
 
 
 
 
+                {/* Icon */}
 
 
 
+                <div
 
-{/* Icon */}
+                  className="
+                  w-16
+                  h-16
+                  rounded-2xl
+                  bg-[#0F2A1D]
+                  text-[#C9A227]
+                  flex
+                  items-center
+                  justify-center
+                  text-3xl
+                  mb-6
+                  "
 
+                >
 
+                  {item.icon}
 
-<div
+                </div>
 
-className="
-w-16
-h-16
-rounded-2xl
-bg-[#0F2A1D]
-text-[#C9A227]
-flex
-items-center
-justify-center
-text-3xl
-mb-6
-"
 
->
 
-{item.icon}
 
-</div>
 
 
 
 
 
+                <h3
 
+                  className="
+                  text-2xl
+                  font-serif
+                  text-[#123524]
+                  mb-4
+                  "
 
+                >
 
-<h3
+                  {item.title}
 
-className="
-text-2xl
-font-serif
-text-[#123524]
-mb-4
-"
+                </h3>
 
->
 
-{item.title}
 
-</h3>
 
 
 
 
 
 
+                <p
 
+                  className="
+                  text-[#26382D]
+                  leading-relaxed
+                  "
 
-<p
+                >
 
-className="
-text-[#364A3A]
-leading-relaxed
-"
+                  {item.text}
 
->
+                </p>
 
-{item.text}
 
-</p>
 
 
 
@@ -309,46 +307,47 @@ leading-relaxed
 
 
 
+                <div
 
+                  className="
+                  mt-6
+                  w-12
+                  h-[2px]
+                  bg-[#8A6418]
+                  "
 
-<div
+                />
 
-className="
-mt-6
-w-12
-h-[2px]
-bg-[#C9A227]
-"
 
-/>
 
 
 
 
 
+              </div>
 
-</div>
 
 
+            ))
 
-))
+          }
 
-}
 
 
+        </div>
 
-</div>
 
 
 
 
 
+      </div>
 
 
-</div>
 
 
-</section>
+
+    </section>
 
 
   );

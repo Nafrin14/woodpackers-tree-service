@@ -10,197 +10,226 @@ function Hero() {
 
   return (
 
-    <section
+<section
 
-      id="home"
+id="home"
 
-      className="
-      min-h-screen
-      bg-[#B8CBB0]
-      flex
-      items-center
-      overflow-hidden
-      relative
-      "
+className="
+min-h-screen
+bg-[#B8CBB0]
+flex
+items-center
+overflow-hidden
+relative
+"
 
-    >
+>
 
 
+{/* Background Shape */}
 
+<motion.div
 
+animate={{
+y:[0,-30,0],
+rotate:[0,10,0]
+}}
 
-      {/* Background Shapes */}
+transition={{
+duration:8,
+repeat:Infinity,
+ease:"easeInOut"
+}}
 
+className="
+absolute
+-right-40
+top-20
+w-[550px]
+h-[550px]
+rounded-full
+bg-[#8FAF7A]
+opacity-50
+"
 
+/>
 
-      <motion.div
 
-        animate={{
-          y:[0,-30,0],
-          rotate:[0,10,0]
-        }}
 
-        transition={{
-          duration:8,
-          repeat:Infinity,
-          ease:"easeInOut"
-        }}
+<motion.div
 
-        className="
-        absolute
-        -right-40
-        top-20
-        w-[550px]
-        h-[550px]
-        rounded-full
-        bg-[#8FAF7A]
-        opacity-50
-        "
+animate={{
+x:[0,40,0]
+}}
 
-      />
+transition={{
+duration:10,
+repeat:Infinity,
+ease:"easeInOut"
+}}
 
+className="
+absolute
+left-10
+bottom-20
+w-40
+h-40
+rounded-full
+bg-[#52734D]
+opacity-20
+"
 
+/>
 
 
 
 
 
-      <motion.div
 
-        animate={{
-          x:[0,40,0]
-        }}
 
-        transition={{
-          duration:10,
-          repeat:Infinity,
-          ease:"easeInOut"
-        }}
+<div
 
-        className="
-        absolute
-        left-10
-        bottom-20
-        w-40
-        h-40
-        rounded-full
-        bg-[#52734D]
-        opacity-20
-        "
+className="
+max-w-[1400px]
+mx-auto
+px-6
+lg:px-14
+pt-32
+w-full
+relative
+z-10
+"
 
-      />
+>
 
 
+<div
 
+className="
+grid
+lg:grid-cols-2
+gap-20
+items-center
+"
 
+>
 
 
+{/* CONTENT */}
 
+<motion.div
 
+initial={{
+opacity:0,
+x:-80
+}}
 
-      <div
+animate={{
+opacity:1,
+x:0
+}}
 
-        className="
-        max-w-[1400px]
-        mx-auto
-        px-6
-        lg:px-14
-        pt-32
-        w-full
-        relative
-        z-10
-        "
+transition={{
+duration:1
+}}
 
-      >
+>
 
 
+<div
 
+className="
+flex
+items-center
+gap-4
+mb-8
+"
 
+>
 
-        <div
+<span
 
-          className="
-          grid
-          lg:grid-cols-2
-          gap-20
-          items-center
-          "
+className="
+w-12
+h-[1px]
+bg-[#8A6418]
+"
 
-        >
+/>
 
 
+<p
 
+className="
+uppercase
+tracking-[5px]
+text-sm
+text-[#123524]
+"
 
+>
 
+Professional Tree Care
 
+</p>
 
-          {/* Content */}
 
+</div>
 
 
-          <motion.div
 
-            initial={{
-              opacity:0,
-              x:-80
-            }}
 
-            animate={{
-              opacity:1,
-              x:0
-            }}
 
-            transition={{
-              duration:1
-            }}
 
-          >
 
+<h1
 
+className="
+text-[#123524]
+text-6xl
+md:text-7xl
+lg:text-[88px]
+font-serif
+leading-[1.05]
+"
 
+>
 
+Creating
 
-            <div
+<br/>
 
-              className="
-              flex
-              items-center
-              gap-4
-              mb-8
-              "
+Timeless
 
-            >
+<br/>
 
+Landscapes.
 
-              <span
+</h1>
 
-                className="
-                w-12
-                h-[1px]
-                bg-[#C9A227]
-                "
 
-              />
 
 
 
-              <p
 
-                className="
-                uppercase
-                tracking-[5px]
-                text-sm
-                text-[#355834]
-                "
 
-              >
+<p
 
-                Professional Tree Care
+className="
+mt-8
+max-w-xl
+text-lg
+text-[#364A3A]
+leading-relaxed
+"
 
-              </p>
+>
 
+Expert tree removal, trimming and complete
+tree care services designed to protect your
+property and enhance your outdoor environment.
 
-            </div>
+</p>
 
 
 
@@ -208,33 +237,50 @@ function Hero() {
 
 
 
+<motion.a
 
+initial={{
+opacity:0,
+y:30
+}}
 
-            <h1
+animate={{
+opacity:1,
+y:0
+}}
 
-              className="
-              text-[#123524]
-              text-6xl
-              md:text-7xl
-              lg:text-[88px]
-              font-serif
-              leading-[1.05]
-              "
+transition={{
+delay:0.8
+}}
 
-            >
+href="#contact"
 
-              Creating
+className="
+mt-10
+inline-flex
+items-center
+gap-3
+bg-[#0F2A1D]
+text-white
+px-9
+py-4
+text-xs
+uppercase
+tracking-[2px]
+hover:bg-[#526B45]
+transition
+"
 
-              <br/>
+>
 
-              Timeless
+Request Estimate
 
-              <br/>
+<FiArrowRight/>
 
-              Landscapes.
+</motion.a>
 
-            </h1>
 
+</motion.div>
 
 
 
@@ -243,95 +289,96 @@ function Hero() {
 
 
 
-            <motion.p
 
-              initial={{
-                opacity:0
-              }}
+{/* IMAGE */}
 
-              animate={{
-                opacity:1
-              }}
 
-              transition={{
-                delay:0.5,
-                duration:1
-              }}
+<motion.div
 
-              className="
-              mt-8
-              max-w-xl
-              text-lg
-              text-[#364A3A]
-              leading-relaxed
-              "
+initial={{
+opacity:0,
+scale:0.9
+}}
 
-            >
+animate={{
+opacity:1,
+scale:1
+}}
 
-              Expert tree removal, trimming and complete
-              tree care services designed to protect your
-              property and enhance your outdoor environment.
+transition={{
+duration:1
+}}
 
-            </motion.p>
+className="
+relative
+"
 
+>
 
 
+<div
 
+className="
+absolute
+inset-0
+bg-[#7F9D6A]
+rounded-[180px_40px_180px_40px]
+translate-x-6
+translate-y-6
+"
 
+/>
 
 
 
+<motion.div
 
-            <motion.a
+animate={{
+scale:[1,1.03,1]
+}}
 
-              initial={{
-                opacity:0,
-                y:30
-              }}
+transition={{
+duration:8,
+repeat:Infinity
+}}
 
-              animate={{
-                opacity:1,
-                y:0
-              }}
+className="
+relative
+overflow-hidden
+rounded-[180px_40px_180px_40px]
+shadow-2xl
+"
 
-              transition={{
-                delay:0.8
-              }}
+>
 
-              href="#contact"
 
+<img
 
-              className="
-              mt-10
-              inline-flex
-              items-center
-              gap-3
-              bg-[#0F2A1D]
-              text-white
-              px-9
-              py-4
-              text-xs
-              uppercase
-              tracking-[2px]
-              hover:bg-[#526B45]
-              transition
-              "
+src={heroImage}
 
-            >
+alt="Professional tree service"
 
-              Request Estimate
+width="700"
 
-              <FiArrowRight/>
+height="650"
 
-            </motion.a>
+loading="eager"
 
+fetchPriority="high"
 
+decoding="async"
 
+className="
+w-full
+h-[650px]
+object-cover
+"
 
+/>
 
 
+</motion.div>
 
-          </motion.div>
 
 
 
@@ -340,212 +387,83 @@ function Hero() {
 
 
 
+{/* Floating Card */}
 
+<motion.div
 
+animate={{
+y:[0,-10,0]
+}}
 
+transition={{
+duration:4,
+repeat:Infinity
+}}
 
+className="
+absolute
+bottom-10
+-left-10
+bg-[#F8F3E8]
+px-8
+py-6
+shadow-xl
+rounded-2xl
+"
 
-          {/* Image */}
+>
 
 
+<p
 
-          <motion.div
+className="
+text-xs
+uppercase
+tracking-[3px]
+text-[#526B45]
+"
 
-            initial={{
-              opacity:0,
-              scale:0.9
-            }}
+>
 
-            animate={{
-              opacity:1,
-              scale:1
-            }}
+Trusted Experts
 
-            transition={{
-              duration:1
-            }}
+</p>
 
-            className="
-            relative
-            "
 
-          >
 
 
 
+<p
 
+className="
+mt-2
+text-xl
+font-serif
+text-[#123524]
+"
 
+>
 
-            <div
+Quality Tree Care
 
-              className="
-              absolute
-              inset-0
-              bg-[#7F9D6A]
-              rounded-[180px_40px_180px_40px]
-              translate-x-6
-              translate-y-6
-              "
+</p>
 
-            />
 
 
+</motion.div>
 
 
 
+</motion.div>
 
 
+</div>
 
 
-            <motion.div
+</div>
 
-              animate={{
-                scale:[1,1.03,1]
-              }}
 
-              transition={{
-                duration:8,
-                repeat:Infinity
-              }}
-
-              className="
-              relative
-              overflow-hidden
-              rounded-[180px_40px_180px_40px]
-              shadow-2xl
-              "
-
-            >
-
-
-
-              <img
-
-                src={heroImage}
-
-                alt="Professional tree service"
-
-                className="
-                w-full
-                h-[650px]
-                object-cover
-                "
-
-              />
-
-
-
-            </motion.div>
-
-
-
-
-
-
-
-
-
-            {/* Floating Card */}
-
-
-
-            <motion.div
-
-              animate={{
-                y:[0,-10,0]
-              }}
-
-              transition={{
-                duration:4,
-                repeat:Infinity
-              }}
-
-              className="
-              absolute
-              bottom-10
-              -left-10
-              bg-[#F8F3E8]
-              px-8
-              py-6
-              shadow-xl
-              rounded-2xl
-              "
-
-            >
-
-
-
-              <p
-
-                className="
-                text-xs
-                uppercase
-                tracking-[3px]
-                text-[#526B45]
-                "
-
-              >
-
-                Trusted Experts
-
-              </p>
-
-
-
-
-
-
-              <h3
-
-                className="
-                mt-2
-                text-xl
-                font-serif
-                text-[#123524]
-                "
-
-              >
-
-                Quality Tree Care
-
-              </h3>
-
-
-
-            </motion.div>
-
-
-
-
-
-
-
-
-          </motion.div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-      </div>
-
-
-
-
-
-
-
-    </section>
-
+</section>
 
   );
 

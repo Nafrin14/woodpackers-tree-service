@@ -44,11 +44,7 @@ items-center
 >
 
 
-
-
-
 {/* IMAGE SECTION */}
-
 
 <motion.div
 
@@ -77,10 +73,6 @@ relative
 >
 
 
-
-{/* Image Background Shape */}
-
-
 <div
 
 className="
@@ -96,11 +88,6 @@ translate-y-6
 
 
 
-
-
-{/* Image */}
-
-
 <div
 
 className="
@@ -108,6 +95,7 @@ relative
 overflow-hidden
 rounded-[50px_180px_50px_180px]
 shadow-2xl
+aspect-[1000/620]
 "
 
 >
@@ -119,11 +107,17 @@ src={aboutImage}
 
 alt="Woodpeckers Tree Service"
 
+width="1000"
+
+height="620"
+
 loading="lazy"
+
+decoding="async"
 
 className="
 w-full
-h-[620px]
+h-full
 object-cover
 "
 
@@ -136,12 +130,7 @@ object-cover
 
 
 
-
-
-
-
-{/* Experience Card */}
-
+{/* EXPERIENCE CARD */}
 
 
 <motion.div
@@ -170,7 +159,7 @@ rounded-2xl
 >
 
 
-<h3
+<p
 
 className="
 text-5xl
@@ -182,7 +171,7 @@ text-[#C9A227]
 
 15+
 
-</h3>
+</p>
 
 
 
@@ -207,8 +196,6 @@ Years Experience
 
 
 
-
-
 </motion.div>
 
 
@@ -217,10 +204,7 @@ Years Experience
 
 
 
-
-
 {/* CONTENT SECTION */}
-
 
 
 <motion.div
@@ -244,8 +228,6 @@ duration:0.8
 }}
 
 >
-
-
 
 
 
@@ -289,10 +271,7 @@ About Us
 </p>
 
 
-
 </div>
-
-
 
 
 
@@ -330,8 +309,6 @@ Outdoor Spaces.
 
 
 
-
-
 <p
 
 className="
@@ -357,10 +334,7 @@ beautiful outdoor environments.
 
 
 
-
-
 {/* STATS */}
-
 
 
 <div
@@ -376,8 +350,6 @@ gap-8
 
 
 
-
-
 <div
 
 className="
@@ -389,7 +361,7 @@ pl-5
 >
 
 
-<h3
+<p
 
 className="
 text-4xl
@@ -401,7 +373,7 @@ text-[#123524]
 
 500+
 
-</h3>
+</p>
 
 
 
@@ -428,8 +400,6 @@ Projects Completed
 
 
 
-
-
 <div
 
 className="
@@ -441,7 +411,7 @@ pl-5
 >
 
 
-<h3
+<p
 
 className="
 text-4xl
@@ -453,7 +423,7 @@ text-[#123524]
 
 100%
 
-</h3>
+</p>
 
 
 
@@ -481,12 +451,6 @@ Customer Satisfaction
 
 
 
-
-
-
-
-
-{/* BUTTON */}
 
 
 
@@ -519,8 +483,6 @@ Learn More
 
 
 
-
-
 </motion.div>
 
 
@@ -534,7 +496,6 @@ Learn More
 
 
 </section>
-
 
   );
 

@@ -65,17 +65,16 @@ function Navbar() {
 
 
 
-
   useEffect(()=>{
 
 
     if(location.pathname !== "/") return;
 
 
-    const handleScroll=()=>{
+    const handleScroll = ()=>{
 
 
-      const sections=[
+      const sections = [
         "home",
         "about",
         "services",
@@ -84,28 +83,22 @@ function Navbar() {
       ];
 
 
-      const scrollPosition =
-      window.scrollY + 250;
+      const scrollPosition = window.scrollY + 250;
 
 
 
       sections.forEach((id)=>{
 
 
-        const section =
-        document.getElementById(id);
-
+        const section = document.getElementById(id);
 
 
         if(section){
 
 
-          const top =
-          section.offsetTop;
+          const top = section.offsetTop;
 
-
-          const height =
-          section.offsetHeight;
+          const height = section.offsetHeight;
 
 
 
@@ -117,6 +110,7 @@ function Navbar() {
             setActive(id);
 
           }
+
 
         }
 
@@ -132,6 +126,7 @@ function Navbar() {
       "scroll",
       handleScroll
     );
+
 
 
     return ()=>{
@@ -150,10 +145,13 @@ function Navbar() {
 
 
 
+
+
   const handleNavigation=(id)=>{
 
 
     setOpen(false);
+
 
 
     if(location.pathname !== "/"){
@@ -163,11 +161,13 @@ function Navbar() {
     }
     else{
 
+
       document
       .getElementById(id)
       ?.scrollIntoView({
         behavior:"smooth"
       });
+
 
     }
 
@@ -179,7 +179,10 @@ function Navbar() {
 
 
 
-  return (
+
+
+return (
+
 
 <header
 
@@ -214,10 +217,13 @@ justify-between
 >
 
 
+
 {/* LOGO */}
 
 
 <button
+
+aria-label="Go to home page"
 
 onClick={()=>handleNavigation("home")}
 
@@ -234,7 +240,13 @@ gap-3
 
 src={logo}
 
-alt="Woodpeckers Tree Service"
+alt="Woodpeckers Tree Service logo"
+
+width="48"
+
+height="48"
+
+loading="eager"
 
 className="
 h-12
@@ -295,7 +307,7 @@ Tree Service
 
 
 
-{/* DESKTOP MENU */}
+{/* DESKTOP LINKS */}
 
 
 <div
@@ -317,12 +329,11 @@ links.map((link)=>(
 
 <button
 
-
 key={link.path}
 
+aria-label={`Navigate to ${link.name}`}
 
 onClick={()=>handleNavigation(link.path)}
-
 
 
 className={`
@@ -351,7 +362,6 @@ active===link.path
 
 `}
 
-
 >
 
 
@@ -376,12 +386,13 @@ active===link.path
 
 
 
-
-{/* BUTTON */}
+{/* QUOTE BUTTON */}
 
 
 <button
 
+
+aria-label="Request a quote"
 
 onClick={()=>handleNavigation("contact")}
 
@@ -403,7 +414,6 @@ hover:bg-white
 transition
 "
 
-
 >
 
 
@@ -420,10 +430,20 @@ Request Quote
 
 
 
-{/* MOBILE ICON */}
+
+{/* MOBILE BUTTON */}
 
 
 <button
+
+
+aria-label={
+open
+?
+"Close navigation menu"
+:
+"Open navigation menu"
+}
 
 
 onClick={()=>setOpen(!open)}
@@ -435,8 +455,8 @@ text-2xl
 text-white
 "
 
-
 >
+
 
 {
 
@@ -505,7 +525,6 @@ px-6
 pb-8
 "
 
-
 >
 
 
@@ -530,11 +549,14 @@ links.map((link)=>(
 
 key={link.path}
 
+aria-label={`Navigate to ${link.name}`}
+
 
 onClick={()=>handleNavigation(link.path)}
 
 
 className={`
+
 
 text-left
 px-5
@@ -544,6 +566,7 @@ text-sm
 uppercase
 tracking-[2px]
 transition
+
 
 
 ${
@@ -559,8 +582,8 @@ active===link.path
 
 }
 
-`}
 
+`}
 
 >
 
@@ -591,10 +614,12 @@ active===link.path
 
 
 
+
 </header>
 
 
-  );
+);
+
 
 }
 
