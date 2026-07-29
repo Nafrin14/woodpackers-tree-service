@@ -687,7 +687,7 @@ transition\r
                     text-sm\r
                     text-[#355834]\r
                     mt-1\r
-                    `,children:e.role})]})]},t))})]})})}function um(){return(0,$.jsx)(`section`,{id:`contact`,className:`\r
+                    `,children:e.role})]})]},t))})]})})}function um(){let e=(0,w.useRef)(null),[t,n]=(0,w.useState)(!1);return(0,w.useEffect)(()=>{let t=new IntersectionObserver(([e])=>{e.isIntersecting&&(n(!0),t.disconnect())},{threshold:.2});return e.current&&t.observe(e.current),()=>t.disconnect()},[]),(0,$.jsx)(`section`,{id:`contact`,className:`\r
       py-24\r
       bg-[#B8CBB0]\r
       overflow-hidden\r
@@ -717,9 +717,7 @@ transition\r
             font-serif\r
             text-[#123524]\r
             mt-6\r
-            `,children:[`Get Your Free`,(0,$.jsxs)(`span`,{className:`\r
-              text-[#52734D]\r
-              `,children:[` `,`Estimate`]})]}),(0,$.jsx)(`p`,{className:`\r
+            `,children:[`Get Your Free`,(0,$.jsxs)(`span`,{className:`text-[#52734D]`,children:[` `,`Estimate`]})]}),(0,$.jsx)(`p`,{className:`\r
             text-[#364A3A]\r
             text-lg\r
             mt-5\r
@@ -780,12 +778,7 @@ transition\r
             justify-center\r
             text-[#52734D]\r
             text-2xl\r
-            `,children:(0,$.jsx)(xr,{})}),(0,$.jsxs)(`div`,{children:[(0,$.jsx)(`p`,{className:`\r
-            text-[#364A3A]\r
-            text-sm\r
-            uppercase\r
-            tracking-wider\r
-            `,children:`Call Us`}),(0,$.jsx)(`a`,{href:`tel:716-355-0028`,className:`\r
+            `,children:(0,$.jsx)(xr,{})}),(0,$.jsxs)(`div`,{children:[(0,$.jsx)(`p`,{className:`text-[#364A3A] text-sm uppercase tracking-wider`,children:`Call Us`}),(0,$.jsx)(`a`,{href:`tel:716-355-0028`,className:`\r
               text-xl\r
               font-serif\r
               text-[#123524]\r
@@ -809,16 +802,11 @@ transition\r
             justify-center\r
             text-[#52734D]\r
             text-2xl\r
-            `,children:(0,$.jsx)(Cr,{})}),(0,$.jsxs)(`div`,{children:[(0,$.jsx)(`p`,{className:`\r
-            text-[#364A3A]\r
-            text-sm\r
-            uppercase\r
-            tracking-wider\r
-            `,children:`Service Area`}),(0,$.jsx)(`h3`,{className:`\r
+            `,children:(0,$.jsx)(Cr,{})}),(0,$.jsxs)(`div`,{children:[(0,$.jsx)(`p`,{className:`text-[#364A3A] text-sm uppercase tracking-wider`,children:`Service Area`}),(0,$.jsx)(`h3`,{className:`\r
               text-xl\r
               font-serif\r
               text-[#123524]\r
-              `,children:`9950 County Rd, New York, USA`})]})]})]}),(0,$.jsxs)(`div`,{className:`\r
+              `,children:`9950 County Rd, New York, USA`})]})]})]}),(0,$.jsxs)(`div`,{ref:e,className:`\r
           bg-[#EEF3E8]\r
           rounded-3xl\r
           p-8\r
@@ -833,13 +821,19 @@ transition\r
             `,children:`Request Service`}),(0,$.jsx)(`p`,{className:`\r
             text-[#364A3A]\r
             mb-8\r
-            `,children:`Fill out the form and our team will contact you.`}),(0,$.jsx)(`iframe`,{src:`https://link.kdlead.com/widget/form/L1ieiJYfZlzK58416ocj`,title:`Woodpeckers Tree Services Form`,loading:`lazy`,scrolling:`no`,className:`\r
+            `,children:`Fill out the form and our team will contact you.`}),t?(0,$.jsx)(`iframe`,{src:`https://link.kdlead.com/widget/form/L1ieiJYfZlzK58416ocj`,title:`Woodpeckers Tree Services Form`,loading:`lazy`,scrolling:`no`,className:`\r
             w-full\r
             h-[900px]\r
             border-0\r
             rounded-2xl\r
             bg-white\r
-            `})]})]})]})})}function dm(){return(0,$.jsx)(`section`,{className:`\r
+            `}):(0,$.jsx)(`div`,{className:`\r
+            h-[900px]\r
+            flex\r
+            items-center\r
+            justify-center\r
+            text-[#52734D]\r
+            `,children:`Loading form...`})]})]})]})})}function dm(){return(0,$.jsx)(`section`,{className:`\r
       pt-32\r
       pb-24\r
       bg-[#F8F5EF]\r
