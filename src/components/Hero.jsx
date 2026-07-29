@@ -28,18 +28,7 @@ relative
 
 {/* Background Shape */}
 
-<motion.div
-
-animate={{
-y:[0,-30,0],
-rotate:[0,10,0]
-}}
-
-transition={{
-duration:8,
-repeat:Infinity,
-ease:"easeInOut"
-}}
+<div
 
 className="
 absolute
@@ -56,17 +45,7 @@ opacity-50
 
 
 
-<motion.div
-
-animate={{
-x:[0,40,0]
-}}
-
-transition={{
-duration:10,
-repeat:Infinity,
-ease:"easeInOut"
-}}
+<div
 
 className="
 absolute
@@ -80,8 +59,6 @@ opacity-20
 "
 
 />
-
-
 
 
 
@@ -130,7 +107,7 @@ x:0
 }}
 
 transition={{
-duration:1
+duration:0.8
 }}
 
 >
@@ -175,7 +152,6 @@ Professional Tree Care
 
 
 </div>
-
 
 
 
@@ -236,7 +212,6 @@ property and enhance your outdoor environment.
 
 
 
-
 <motion.a
 
 initial={{
@@ -250,7 +225,7 @@ y:0
 }}
 
 transition={{
-delay:0.8
+delay:0.5
 }}
 
 href="#contact"
@@ -297,7 +272,7 @@ Request Estimate
 
 initial={{
 opacity:0,
-scale:0.9
+scale:0.95
 }}
 
 animate={{
@@ -306,7 +281,7 @@ scale:1
 }}
 
 transition={{
-duration:1
+duration:0.8
 }}
 
 className="
@@ -331,16 +306,7 @@ translate-y-6
 
 
 
-<motion.div
-
-animate={{
-scale:[1,1.03,1]
-}}
-
-transition={{
-duration:8,
-repeat:Infinity
-}}
+<div
 
 className="
 relative
@@ -377,8 +343,7 @@ object-cover
 />
 
 
-</motion.div>
-
+</div>
 
 
 
