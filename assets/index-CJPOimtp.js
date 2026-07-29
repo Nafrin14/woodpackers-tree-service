@@ -38,7 +38,7 @@ justify-between\r
 flex\r
 items-center\r
 gap-3\r
-`,children:[(0,$.jsx)(`img`,{src:Xp,alt:`Woodpeckers Tree Service logo`,className:`\r
+`,children:[(0,$.jsx)(`img`,{src:Xp,alt:`Woodpeckers Tree Service logo`,width:`48`,height:`48`,loading:`eager`,className:`\r
 h-12\r
 w-12\r
 rounded-full\r
@@ -59,7 +59,7 @@ hidden\r
 lg:flex\r
 items-center\r
 gap-5\r
-`,children:o.map(e=>(0,$.jsx)(`button`,{onClick:()=>s(e.path),className:`
+`,children:o.map(e=>(0,$.jsx)(`button`,{"aria-label":`Navigate to ${e.name}`,onClick:()=>s(e.path),className:`
 
 px-5
 py-2.5
@@ -72,7 +72,7 @@ transition
 
 ${n===e.path?`bg-[#C9A227] text-[#123524]`:`text-[#F5F1E8] hover:bg-[#C9A227] hover:text-[#123524]`}
 
-`,children:e.name},e.path))}),(0,$.jsxs)(`button`,{onClick:()=>s(`contact`),className:`\r
+`,children:e.name},e.path))}),(0,$.jsxs)(`button`,{"aria-label":`Request a quote`,onClick:()=>s(`contact`),className:`\r
 hidden\r
 lg:flex\r
 items-center\r
@@ -100,7 +100,8 @@ pb-8\r
 flex\r
 flex-col\r
 gap-4\r
-`,children:o.map(e=>(0,$.jsx)(`button`,{onClick:()=>s(e.path),className:`
+`,children:o.map(e=>(0,$.jsx)(`button`,{"aria-label":`Navigate to ${e.name}`,onClick:()=>s(e.path),className:`
+
 
 text-left
 px-5
@@ -112,7 +113,9 @@ tracking-[2px]
 transition
 
 
+
 ${n===e.path?`bg-[#C9A227] text-[#123524]`:`text-white hover:bg-[#C9A227] hover:text-[#123524]`}
+
 
 `,children:e.name},e.path))})})})]})}function Qp(){return(0,$.jsx)(`footer`,{className:`\r
       bg-[#0F2A1D]\r
@@ -313,7 +316,7 @@ relative\r
 overflow-hidden\r
 rounded-[180px_40px_180px_40px]\r
 shadow-2xl\r
-`,children:(0,$.jsx)(`img`,{src:$p,alt:`Professional tree service`,className:`\r
+`,children:(0,$.jsx)(`img`,{src:$p,alt:`Professional tree service`,width:`700`,height:`650`,loading:`eager`,fetchPriority:`high`,decoding:`async`,className:`\r
 w-full\r
 h-[650px]\r
 object-cover\r
@@ -365,7 +368,7 @@ overflow-hidden\r
 rounded-[50px_180px_50px_180px]\r
 shadow-2xl\r
 aspect-[1000/620]\r
-`,children:(0,$.jsx)(`img`,{src:tm,alt:`Woodpeckers Tree Service`,width:`1000`,height:`620`,loading:`lazy`,className:`\r
+`,children:(0,$.jsx)(`img`,{src:tm,alt:`Woodpeckers Tree Service`,width:`1000`,height:`620`,loading:`lazy`,decoding:`async`,className:`\r
 w-full\r
 h-full\r
 object-cover\r
