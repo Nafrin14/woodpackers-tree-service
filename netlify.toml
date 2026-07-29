@@ -6,13 +6,6 @@ publish = "dist"
 NODE_VERSION = "22"
 
 [[headers]]
-for = "/*"
-
-[headers.values]
-Cache-Control = "public, max-age=0, must-revalidate"
-Content-Encoding = "br"
-
-[[headers]]
 for = "/assets/*"
 
 [headers.values]
