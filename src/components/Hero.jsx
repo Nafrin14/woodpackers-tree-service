@@ -6,7 +6,8 @@ function Hero() {
     <section
       id="home"
       className="
-        min-h-screen
+        min-h-[700px]
+        lg:min-h-screen
         bg-[#B8CBB0]
         flex
         items-center
@@ -91,6 +92,7 @@ function Hero() {
               </p>
             </div>
 
+
             <h1
               className="
                 text-[#123524]
@@ -108,6 +110,7 @@ function Hero() {
               Landscapes.
             </h1>
 
+
             <p
               className="
                 mt-8
@@ -121,6 +124,7 @@ function Hero() {
               designed to protect your property and enhance your outdoor
               environment.
             </p>
+
 
             <a
               href="#contact"
@@ -143,10 +147,14 @@ function Hero() {
               Request Estimate
               <FiArrowRight />
             </a>
+
           </div>
+
+
 
           {/* Image */}
           <div className="relative">
+
             <div
               className="
                 absolute
@@ -158,6 +166,7 @@ function Hero() {
               "
             />
 
+
             <div
               className="
                 relative
@@ -166,6 +175,7 @@ function Hero() {
                 shadow-2xl
               "
             >
+
               <img
                 src={heroImage}
                 alt="Professional tree service"
@@ -176,11 +186,15 @@ function Hero() {
                 decoding="async"
                 className="
                   w-full
-                  h-[650px]
+                  h-[450px]
+                  lg:h-[650px]
                   object-cover
                 "
               />
+
             </div>
+
+
 
             {/* Floating Card */}
             <div
@@ -195,6 +209,7 @@ function Hero() {
                 rounded-2xl
               "
             >
+
               <p
                 className="
                   text-xs
@@ -206,6 +221,7 @@ function Hero() {
                 Trusted Experts
               </p>
 
+
               <p
                 className="
                   mt-2
@@ -216,10 +232,16 @@ function Hero() {
               >
                 Quality Tree Care
               </p>
+
             </div>
+
+
           </div>
+
         </div>
+
       </div>
+
     </section>
   );
 }
