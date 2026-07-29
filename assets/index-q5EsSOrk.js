@@ -560,7 +560,7 @@ transition\r
           mx-auto\r
           mb-16\r
           `,children:[(0,$.jsx)(`span`,{className:`\r
-            text-[#8A6418]\r
+            text-[#6B4F12]\r
             uppercase\r
             tracking-[5px]\r
             font-medium\r
@@ -571,6 +571,7 @@ transition\r
             font-serif\r
             text-[#123524]\r
             mt-5\r
+            leading-tight\r
             `,children:[`Trusted Tree Care`,(0,$.jsxs)(`span`,{className:`\r
               text-[#355834]\r
               `,children:[` `,`Experts`]})]}),(0,$.jsx)(`p`,{className:`\r
