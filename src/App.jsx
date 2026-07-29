@@ -1,182 +1,86 @@
 import { Routes, Route } from "react-router-dom";
-import { lazy, Suspense } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
+import WhyChooseUs from "./components/WhyChooseUs";
+import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 
-// Lazy load components
-const Hero = lazy(() => import("./components/Hero"));
-const About = lazy(() => import("./components/About"));
-const Services = lazy(() => import("./components/Services"));
-const WhyChooseUs = lazy(() => import("./components/WhyChooseUs"));
-const Testimonials = lazy(() => import("./components/Testimonials"));
-const Contact = lazy(() => import("./components/Contact"));
-
-
-// Lazy load pages
-const Privacy = lazy(() => import("./pages/Privacy"));
-const Terms = lazy(() => import("./pages/Terms"));
-
-
-
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 
 
 function Home() {
 
   return (
-
     <>
 
       <Hero />
 
-      <Suspense
+      <About />
 
-        fallback={
+      <Services />
 
-          <div className="
-            min-h-screen
-            flex
-            items-center
-            justify-center
-            text-[#123524]
-            text-xl
-          ">
+      <WhyChooseUs />
 
-            Loading...
+      <Testimonials />
 
-          </div>
-
-        }
-
-      >
-
-        <About />
-
-        <Services />
-
-        <WhyChooseUs />
-
-        <Testimonials />
-
-        <Contact />
-
-      </Suspense>
+      <Contact />
 
     </>
-
   );
 
 }
-
-
-
 
 
 
 function App() {
 
-
   return (
 
     <>
 
-
       <Navbar />
-
-
 
       <main>
 
+        <Routes>
 
-        <Suspense
+          <Route
+            path="/"
+            element={<Home />}
+          />
 
-          fallback={
+          <Route
+            path="/privacy"
+            element={<Privacy />}
+          />
 
-            <div className="
-              min-h-screen
-              flex
-              items-center
-              justify-center
-              text-[#123524]
-              text-xl
-            ">
+          <Route
+            path="/terms"
+            element={<Terms />}
+          />
 
-              Loading...
+          <Route
+            path="*"
+            element={<Home />}
+          />
 
-            </div>
-
-          }
-
-        >
-
-
-
-          <Routes>
-
-
-
-            <Route
-
-              path="/"
-
-              element={<Home />}
-
-            />
-
-
-
-            <Route
-
-              path="/privacy"
-
-              element={<Privacy />}
-
-            />
-
-
-
-            <Route
-
-              path="/terms"
-
-              element={<Terms />}
-
-            />
-
-
-
-            <Route
-
-              path="*"
-
-              element={<Home />}
-
-            />
-
-
-
-          </Routes>
-
-
-
-        </Suspense>
-
+        </Routes>
 
       </main>
 
-
-
-
       <Footer />
-
 
     </>
 
   );
 
 }
-
 
 
 export default App;
