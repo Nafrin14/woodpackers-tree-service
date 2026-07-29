@@ -220,123 +220,123 @@ ${n===e.path?`bg-[#C9A227] text-[#123524]`:`text-white hover:bg-[#C9A227] hover:
               hover:text-[#C9A227]\r
               transition\r
               `,children:`Terms & Conditions`})]})]})]})})}var $p=`/woodpackers-tree-service/assets/hero-pXjeXK0H.webp`;function em(){return(0,$.jsxs)(`section`,{id:`home`,className:`\r
-      min-h-screen\r
-      bg-[#B8CBB0]\r
-      flex\r
-      items-center\r
-      overflow-hidden\r
-      relative\r
-      `,children:[(0,$.jsx)(Yp.div,{animate:{y:[0,-30,0],rotate:[0,10,0]},transition:{duration:8,repeat:1/0,ease:`easeInOut`},className:`\r
-        absolute\r
-        -right-40\r
-        top-20\r
-        w-[550px]\r
-        h-[550px]\r
-        rounded-full\r
-        bg-[#8FAF7A]\r
-        opacity-50\r
-        `}),(0,$.jsx)(Yp.div,{animate:{x:[0,40,0]},transition:{duration:10,repeat:1/0,ease:`easeInOut`},className:`\r
-        absolute\r
-        left-10\r
-        bottom-20\r
-        w-40\r
-        h-40\r
-        rounded-full\r
-        bg-[#52734D]\r
-        opacity-20\r
-        `}),(0,$.jsx)(`div`,{className:`\r
-        max-w-[1400px]\r
-        mx-auto\r
-        px-6\r
-        lg:px-14\r
-        pt-32\r
-        w-full\r
-        relative\r
-        z-10\r
-        `,children:(0,$.jsxs)(`div`,{className:`\r
-          grid\r
-          lg:grid-cols-2\r
-          gap-20\r
-          items-center\r
-          `,children:[(0,$.jsxs)(Yp.div,{initial:{opacity:0,x:-80},animate:{opacity:1,x:0},transition:{duration:1},children:[(0,$.jsxs)(`div`,{className:`\r
-              flex\r
-              items-center\r
-              gap-4\r
-              mb-8\r
-              `,children:[(0,$.jsx)(`span`,{className:`\r
-                w-12\r
-                h-[1px]\r
-                bg-[#C9A227]\r
-                `}),(0,$.jsx)(`p`,{className:`\r
-                uppercase\r
-                tracking-[5px]\r
-                text-sm\r
-                text-[#355834]\r
-                `,children:`Professional Tree Care`})]}),(0,$.jsxs)(`h1`,{className:`\r
-              text-[#123524]\r
-              text-6xl\r
-              md:text-7xl\r
-              lg:text-[88px]\r
-              font-serif\r
-              leading-[1.05]\r
-              `,children:[`Creating`,(0,$.jsx)(`br`,{}),`Timeless`,(0,$.jsx)(`br`,{}),`Landscapes.`]}),(0,$.jsx)(Yp.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.5,duration:1},className:`\r
-              mt-8\r
-              max-w-xl\r
-              text-lg\r
-              text-[#364A3A]\r
-              leading-relaxed\r
-              `,children:`Expert tree removal, trimming and complete tree care services designed to protect your property and enhance your outdoor environment.`}),(0,$.jsxs)(Yp.a,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{delay:.8},href:`#contact`,className:`\r
-              mt-10\r
-              inline-flex\r
-              items-center\r
-              gap-3\r
-              bg-[#0F2A1D]\r
-              text-white\r
-              px-9\r
-              py-4\r
-              text-xs\r
-              uppercase\r
-              tracking-[2px]\r
-              hover:bg-[#526B45]\r
-              transition\r
-              `,children:[`Request Estimate`,(0,$.jsx)(Er,{})]})]}),(0,$.jsxs)(Yp.div,{initial:{opacity:0,scale:.9},animate:{opacity:1,scale:1},transition:{duration:1},className:`\r
-            relative\r
-            `,children:[(0,$.jsx)(`div`,{className:`\r
-              absolute\r
-              inset-0\r
-              bg-[#7F9D6A]\r
-              rounded-[180px_40px_180px_40px]\r
-              translate-x-6\r
-              translate-y-6\r
-              `}),(0,$.jsx)(Yp.div,{animate:{scale:[1,1.03,1]},transition:{duration:8,repeat:1/0},className:`\r
-              relative\r
-              overflow-hidden\r
-              rounded-[180px_40px_180px_40px]\r
-              shadow-2xl\r
-              `,children:(0,$.jsx)(`img`,{src:$p,alt:`Professional tree service`,className:`\r
-                w-full\r
-                h-[650px]\r
-                object-cover\r
-                `})}),(0,$.jsxs)(Yp.div,{animate:{y:[0,-10,0]},transition:{duration:4,repeat:1/0},className:`\r
-              absolute\r
-              bottom-10\r
-              -left-10\r
-              bg-[#F8F3E8]\r
-              px-8\r
-              py-6\r
-              shadow-xl\r
-              rounded-2xl\r
-              `,children:[(0,$.jsx)(`p`,{className:`\r
-                text-xs\r
-                uppercase\r
-                tracking-[3px]\r
-                text-[#526B45]\r
-                `,children:`Trusted Experts`}),(0,$.jsx)(`h3`,{className:`\r
-                mt-2\r
-                text-xl\r
-                font-serif\r
-                text-[#123524]\r
-                `,children:`Quality Tree Care`})]})]})]})})]})}var tm=`/woodpackers-tree-service/assets/about-Dthff4FQ.webp`;function nm(){return(0,$.jsx)(`section`,{id:`about`,className:`\r
+min-h-screen\r
+bg-[#B8CBB0]\r
+flex\r
+items-center\r
+overflow-hidden\r
+relative\r
+`,children:[(0,$.jsx)(Yp.div,{animate:{y:[0,-30,0],rotate:[0,10,0]},transition:{duration:8,repeat:1/0,ease:`easeInOut`},className:`\r
+absolute\r
+-right-40\r
+top-20\r
+w-[550px]\r
+h-[550px]\r
+rounded-full\r
+bg-[#8FAF7A]\r
+opacity-50\r
+`}),(0,$.jsx)(Yp.div,{animate:{x:[0,40,0]},transition:{duration:10,repeat:1/0,ease:`easeInOut`},className:`\r
+absolute\r
+left-10\r
+bottom-20\r
+w-40\r
+h-40\r
+rounded-full\r
+bg-[#52734D]\r
+opacity-20\r
+`}),(0,$.jsx)(`div`,{className:`\r
+max-w-[1400px]\r
+mx-auto\r
+px-6\r
+lg:px-14\r
+pt-32\r
+w-full\r
+relative\r
+z-10\r
+`,children:(0,$.jsxs)(`div`,{className:`\r
+grid\r
+lg:grid-cols-2\r
+gap-20\r
+items-center\r
+`,children:[(0,$.jsxs)(Yp.div,{initial:{opacity:0,x:-80},animate:{opacity:1,x:0},transition:{duration:1},children:[(0,$.jsxs)(`div`,{className:`\r
+flex\r
+items-center\r
+gap-4\r
+mb-8\r
+`,children:[(0,$.jsx)(`span`,{className:`\r
+w-12\r
+h-[1px]\r
+bg-[#C9A227]\r
+`}),(0,$.jsx)(`p`,{className:`\r
+uppercase\r
+tracking-[5px]\r
+text-sm\r
+text-[#355834]\r
+`,children:`Professional Tree Care`})]}),(0,$.jsxs)(`h1`,{className:`\r
+text-[#123524]\r
+text-6xl\r
+md:text-7xl\r
+lg:text-[88px]\r
+font-serif\r
+leading-[1.05]\r
+`,children:[`Creating`,(0,$.jsx)(`br`,{}),`Timeless`,(0,$.jsx)(`br`,{}),`Landscapes.`]}),(0,$.jsx)(Yp.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.5,duration:1},className:`\r
+mt-8\r
+max-w-xl\r
+text-lg\r
+text-[#364A3A]\r
+leading-relaxed\r
+`,children:`Expert tree removal, trimming and complete tree care services designed to protect your property and enhance your outdoor environment.`}),(0,$.jsxs)(Yp.a,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{delay:.8},href:`#contact`,className:`\r
+mt-10\r
+inline-flex\r
+items-center\r
+gap-3\r
+bg-[#0F2A1D]\r
+text-white\r
+px-9\r
+py-4\r
+text-xs\r
+uppercase\r
+tracking-[2px]\r
+hover:bg-[#526B45]\r
+transition\r
+`,children:[`Request Estimate`,(0,$.jsx)(Er,{})]})]}),(0,$.jsxs)(Yp.div,{initial:{opacity:0,scale:.9},animate:{opacity:1,scale:1},transition:{duration:1},className:`\r
+relative\r
+`,children:[(0,$.jsx)(`div`,{className:`\r
+absolute\r
+inset-0\r
+bg-[#7F9D6A]\r
+rounded-[180px_40px_180px_40px]\r
+translate-x-6\r
+translate-y-6\r
+`}),(0,$.jsx)(Yp.div,{animate:{scale:[1,1.03,1]},transition:{duration:8,repeat:1/0},className:`\r
+relative\r
+overflow-hidden\r
+rounded-[180px_40px_180px_40px]\r
+shadow-2xl\r
+`,children:(0,$.jsx)(`img`,{src:$p,alt:`Professional tree service`,className:`\r
+w-full\r
+h-[650px]\r
+object-cover\r
+`})}),(0,$.jsxs)(Yp.div,{animate:{y:[0,-10,0]},transition:{duration:4,repeat:1/0},className:`\r
+absolute\r
+bottom-10\r
+-left-10\r
+bg-[#F8F3E8]\r
+px-8\r
+py-6\r
+shadow-xl\r
+rounded-2xl\r
+`,children:[(0,$.jsx)(`p`,{className:`\r
+text-xs\r
+uppercase\r
+tracking-[3px]\r
+text-[#526B45]\r
+`,children:`Trusted Experts`}),(0,$.jsx)(`p`,{className:`\r
+mt-2\r
+text-xl\r
+font-serif\r
+text-[#123524]\r
+`,children:`Quality Tree Care`})]})]})]})})]})}var tm=`/woodpackers-tree-service/assets/about-Dthff4FQ.webp`;function nm(){return(0,$.jsx)(`section`,{id:`about`,className:`\r
 py-28\r
 bg-[#B8CBB0]\r
 overflow-hidden\r
@@ -456,97 +456,97 @@ tracking-[2px]\r
 hover:bg-[#526B45]\r
 transition\r
 `,children:`Learn More`})]})]})})})}var rm=`/woodpackers-tree-service/assets/tree-removal-pqmE4UVI.webp`,im=`/woodpackers-tree-service/assets/tree-trimming-BT7cJ4Qv.webp`,am=`/woodpackers-tree-service/assets/stump-grinding-CwTgpN-v.webp`,om=`/woodpackers-tree-service/assets/emergency-service-F80rW0cs.webp`;function sm(){return(0,$.jsx)(`section`,{id:`services`,className:`\r
+        py-24\r
+        bg-[#B8CBB0]\r
+        overflow-hidden\r
+      `,children:(0,$.jsxs)(`div`,{className:`\r
+          container\r
+          mx-auto\r
+          px-6\r
+          lg:px-12\r
+        `,children:[(0,$.jsxs)(`div`,{className:`\r
+            text-center\r
+            max-w-3xl\r
+            mx-auto\r
+            mb-16\r
+          `,children:[(0,$.jsx)(`span`,{className:`\r
+              text-[#064E3B]\r
+              uppercase\r
+              tracking-[5px]\r
+              font-medium\r
+              text-sm\r
+            `,children:`Our Services`}),(0,$.jsxs)(`h2`,{className:`\r
+              text-4xl\r
+              md:text-6xl\r
+              font-serif\r
+              text-[#123524]\r
+              mt-5\r
+              leading-tight\r
+            `,children:[`Professional Tree Care`,(0,$.jsxs)(`span`,{className:`\r
+                text-[#064E3B]\r
+              `,children:[` `,`Solutions`]})]}),(0,$.jsx)(`p`,{className:`\r
+              text-[#123524]\r
+              text-lg\r
+              mt-5\r
+              leading-relaxed\r
+            `,children:`Reliable tree services designed to keep your property safe, beautiful and healthy.`})]}),(0,$.jsx)(`div`,{className:`\r
+            grid\r
+            sm:grid-cols-2\r
+            lg:grid-cols-4\r
+            gap-8\r
+          `,children:[{image:rm,title:`Tree Removal`,text:`Safe and professional tree removal services to protect your property and surrounding landscape.`},{image:im,title:`Tree Trimming`,text:`Expert pruning and trimming to improve tree health, appearance and safety.`},{image:am,title:`Stump Grinding`,text:`Complete stump removal and grinding services to clear unwanted tree remains.`},{image:om,title:`Emergency Tree Service`,text:`Fast response emergency tree services for storm damage and hazardous trees.`}].map((e,t)=>(0,$.jsxs)(`div`,{className:`\r
+                  bg-[#F8F3E8]\r
+                  rounded-[40px]\r
+                  overflow-hidden\r
+                  shadow-xl\r
+                  border\r
+                  border-[#8FAF7A]\r
+                  hover:-translate-y-3\r
+                  transition-all\r
+                  duration-500\r
+                  flex\r
+                  flex-col\r
+                `,children:[(0,$.jsxs)(`div`,{className:`\r
+                    h-64\r
+                    w-full\r
+                    overflow-hidden\r
+                    relative\r
+                  `,children:[(0,$.jsx)(`img`,{src:e.image,alt:e.title,loading:`lazy`,className:`\r
+                      w-full\r
+                      h-full\r
+                      object-cover\r
+                      hover:scale-110\r
+                      transition-transform\r
+                      duration-700\r
+                    `}),(0,$.jsx)(`div`,{className:`\r
+                      absolute\r
+                      inset-0\r
+                      bg-gradient-to-t\r
+                      from-[#0F2A1D]/50\r
+                      via-transparent\r
+                      to-transparent\r
+                    `})]}),(0,$.jsxs)(`div`,{className:`\r
+                    p-8\r
+                    flex\r
+                    flex-col\r
+                    flex-1\r
+                  `,children:[(0,$.jsx)(`h3`,{className:`\r
+                      text-2xl\r
+                      font-serif\r
+                      text-[#123524]\r
+                      mb-4\r
+                    `,children:e.title}),(0,$.jsx)(`p`,{className:`\r
+                      text-[#364A3A]\r
+                      leading-relaxed\r
+                      flex-1\r
+                    `,children:e.text}),(0,$.jsx)(`div`,{className:`\r
+                      mt-6\r
+                      w-12\r
+                      h-[2px]\r
+                      bg-[#C9A227]\r
+                    `})]})]},t))})]})})}function cm(){return(0,$.jsx)(`section`,{id:`whychoose`,className:`\r
 py-24\r
-bg-[#B8CBB0]\r
-overflow-hidden\r
-`,children:(0,$.jsxs)(`div`,{className:`\r
-container\r
-mx-auto\r
-px-6\r
-lg:px-12\r
-`,children:[(0,$.jsxs)(`div`,{className:`\r
-text-center\r
-max-w-3xl\r
-mx-auto\r
-mb-16\r
-`,children:[(0,$.jsx)(`span`,{className:`\r
-text-[#C9A227]\r
-uppercase\r
-tracking-[5px]\r
-font-medium\r
-text-sm\r
-`,children:`Our Services`}),(0,$.jsxs)(`h2`,{className:`\r
-text-4xl\r
-md:text-6xl\r
-font-serif\r
-text-[#123524]\r
-mt-5\r
-leading-tight\r
-`,children:[`Professional Tree Care`,(0,$.jsxs)(`span`,{className:`\r
-text-[#526B45]\r
-`,children:[` `,`Solutions`]})]}),(0,$.jsx)(`p`,{className:`\r
-text-[#364A3A]\r
-text-lg\r
-mt-5\r
-leading-relaxed\r
-`,children:`Reliable tree services designed to keep your property safe, beautiful and healthy.`})]}),(0,$.jsx)(`div`,{className:`\r
-grid\r
-sm:grid-cols-2\r
-lg:grid-cols-4\r
-gap-8\r
-`,children:[{image:rm,title:`Tree Removal`,text:`Safe and professional tree removal services to protect your property and surrounding landscape.`},{image:im,title:`Tree Trimming`,text:`Expert pruning and trimming to improve tree health, appearance and safety.`},{image:am,title:`Stump Grinding`,text:`Complete stump removal and grinding services to clear unwanted tree remains.`},{image:om,title:`Emergency Tree Service`,text:`Fast response emergency tree services for storm damage and hazardous trees.`}].map((e,t)=>(0,$.jsxs)(`div`,{className:`\r
-bg-[#F8F3E8]\r
-rounded-[40px]\r
-overflow-hidden\r
-shadow-xl\r
-border\r
-border-[#8FAF7A]\r
-hover:-translate-y-3\r
-transition-all\r
-duration-500\r
-flex\r
-flex-col\r
-`,children:[(0,$.jsxs)(`div`,{className:`\r
-h-64\r
-w-full\r
-overflow-hidden\r
-relative\r
-`,children:[(0,$.jsx)(`img`,{src:e.image,alt:e.title,loading:`lazy`,className:`\r
-w-full\r
-h-full\r
-object-cover\r
-hover:scale-110\r
-transition-transform\r
-duration-700\r
-`}),(0,$.jsx)(`div`,{className:`\r
-absolute\r
-inset-0\r
-bg-gradient-to-t\r
-from-[#0F2A1D]/50\r
-via-transparent\r
-to-transparent\r
-`})]}),(0,$.jsxs)(`div`,{className:`\r
-p-8\r
-flex\r
-flex-col\r
-flex-1\r
-`,children:[(0,$.jsx)(`h3`,{className:`\r
-text-2xl\r
-font-serif\r
-text-[#123524]\r
-mb-4\r
-`,children:e.title}),(0,$.jsx)(`p`,{className:`\r
-text-[#364A3A]\r
-leading-relaxed\r
-flex-1\r
-`,children:e.text}),(0,$.jsx)(`div`,{className:`\r
-mt-6\r
-w-12\r
-h-[2px]\r
-bg-[#C9A227]\r
-`})]})]},t))})]})})}function cm(){return(0,$.jsx)(`section`,{id:`whychoose`,className:`\r
-py-24\r
-bg-[#B8CBB0]\r
+bg-[#DCE8D5]\r
 overflow-hidden\r
 scroll-mt-32\r
 `,children:(0,$.jsxs)(`div`,{className:`\r
@@ -560,7 +560,7 @@ max-w-3xl\r
 mx-auto\r
 mb-16\r
 `,children:[(0,$.jsx)(`span`,{className:`\r
-text-[#C9A227]\r
+text-[#8A6418]\r
 uppercase\r
 tracking-[5px]\r
 font-medium\r
@@ -571,10 +571,11 @@ md:text-6xl\r
 font-serif\r
 text-[#123524]\r
 mt-5\r
+leading-tight\r
 `,children:[`Trusted Tree Care`,(0,$.jsxs)(`span`,{className:`\r
 text-[#526B45]\r
 `,children:[` `,`Experts`]})]}),(0,$.jsx)(`p`,{className:`\r
-text-[#364A3A]\r
+text-[#26382D]\r
 text-lg\r
 mt-5\r
 leading-relaxed\r
@@ -597,7 +598,7 @@ duration-500\r
 w-16\r
 h-16\r
 rounded-2xl\r
-bg-[#0F2A1D]\r
+bg-[#123524]\r
 text-[#C9A227]\r
 flex\r
 items-center\r
@@ -610,13 +611,13 @@ font-serif\r
 text-[#123524]\r
 mb-4\r
 `,children:e.title}),(0,$.jsx)(`p`,{className:`\r
-text-[#364A3A]\r
+text-[#26382D]\r
 leading-relaxed\r
 `,children:e.text}),(0,$.jsx)(`div`,{className:`\r
 mt-6\r
 w-12\r
 h-[2px]\r
-bg-[#C9A227]\r
+bg-[#8A6418]\r
 `})]},t))})]})})}function lm(){return(0,$.jsx)(`section`,{id:`testimonials`,className:`\r
       py-24\r
       bg-[#B8CBB0]\r
@@ -887,4 +888,4 @@ bg-[#C9A227]\r
             font-black\r
             text-[#07110C]\r
             mb-6\r
-            `,children:`Terms & Conditions`}),(0,$.jsxs)(`p`,{className:`text-gray-600 mb-8`,children:[(0,$.jsx)(`strong`,{children:`Effective Date:`}),` `,`January 19, 2025`,` | `,(0,$.jsx)(`strong`,{children:`Last Updated:`}),` `,`July 28, 2026`]}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:[`Welcome to `,(0,$.jsx)(`strong`,{children:`Woodpeckers Tree Service`}),`. By accessing this website or using our services, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our website or services.`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`1. Business Identity`}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:[`These Terms and Conditions govern your use of services provided by`,(0,$.jsx)(`strong`,{children:` Woodpeckers Tree Service`}),`.`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`br`,{}),`Contact details:`,(0,$.jsx)(`br`,{}),`Address: [Company Address]`,(0,$.jsx)(`br`,{}),`Phone: [Company Phone Number]`,(0,$.jsx)(`br`,{}),`Email: [Company Email]`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`2. Age Requirement (18+)`}),(0,$.jsx)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:`By using this website or requesting our services, including SMS communications, you confirm that you are at least 18 years old.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`3. Terminology`}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:[`"Client," "You," and "Your" refers to the user of this website.`,(0,$.jsx)(`br`,{}),`"The Company," "We," "Our," and "Us" refers to Woodpeckers Tree Service.`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`4. SMS Messaging Terms of Service`}),(0,$.jsx)(`p`,{className:`text-gray-700 leading-relaxed mb-4`,children:`By providing your phone number and accepting SMS consent through our contact forms, you agree to receive text messages from Woodpeckers Tree Service.`}),(0,$.jsxs)(`ul`,{className:`list-disc pl-6 text-gray-700 space-y-2 mb-6`,children:[(0,$.jsx)(`li`,{children:`Free estimate confirmations`}),(0,$.jsx)(`li`,{children:`Scheduling notifications`}),(0,$.jsx)(`li`,{children:`Appointment reminders`}),(0,$.jsx)(`li`,{children:`Project updates`}),(0,$.jsx)(`li`,{children:`Customer support communications`}),(0,$.jsx)(`li`,{children:`Service-related announcements`})]}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4a. Message Frequency`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-6`,children:`Message frequency varies depending on your service requests, appointments, and communication with us.`}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4b. Message & Data Rates`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-6`,children:`Message and data rates may apply depending on your mobile carrier and service plan. Woodpeckers Tree Service is not responsible for carrier charges.`}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4c. How to Opt Out (STOP)`}),(0,$.jsxs)(`p`,{className:`text-gray-700 mb-6`,children:[`You can stop receiving SMS messages at any time by replying`,(0,$.jsx)(`strong`,{children:` STOP `}),`to any message received from us.`]}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4d. How to Get Help (HELP)`}),(0,$.jsxs)(`p`,{className:`text-gray-700 mb-8`,children:[`For help with SMS communications, reply`,(0,$.jsx)(`strong`,{children:` HELP `}),`or contact us:`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`br`,{}),`Phone: [Company Phone Number]`,(0,$.jsx)(`br`,{}),`Email: [Company Email]`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`5. Cookies`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We use cookies and similar technologies to improve website functionality and user experience. Cookies are handled according to our Privacy Policy.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`6. Intellectual Property & License`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`Unless otherwise stated, Woodpeckers Tree Service owns the content and materials on this website. You may not copy, reproduce, or distribute content without permission.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`7. Comments & User Content`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We reserve the right to remove inappropriate, offensive, or unauthorized user content.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`8. Content Liability`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We are not responsible for content on external websites that link to or from our website.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`9. Disclaimer`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`Woodpeckers Tree Service provides information and services to the best of our ability. We are not responsible for losses or damages resulting from website use or service usage.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`10. Changes to These Terms`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We may update these Terms and Conditions at any time. Changes will be posted with an updated revision date.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`11. Contact Information`}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed`,children:[(0,$.jsx)(`strong`,{children:`Company:`}),` Woodpeckers Tree Service`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`strong`,{children:`Address:`}),` [9950 County Rd, New York]`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`strong`,{children:`Phone:`}),` [716-355-0028]`,(0,$.jsx)(`br`,{})]})]})})})}function pm(){return(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(em,{}),(0,$.jsx)(nm,{}),(0,$.jsx)(sm,{}),(0,$.jsx)(cm,{}),(0,$.jsx)(lm,{}),(0,$.jsx)(um,{})]})}function mm(){return(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(Zp,{}),(0,$.jsxs)(Jt,{children:[(0,$.jsx)(Kt,{path:`/`,element:(0,$.jsx)(pm,{})}),(0,$.jsx)(Kt,{path:`/privacy`,element:(0,$.jsx)(dm,{})}),(0,$.jsx)(Kt,{path:`/terms`,element:(0,$.jsx)(fm,{})}),(0,$.jsx)(Kt,{path:`*`,element:(0,$.jsx)(pm,{})})]}),(0,$.jsx)(Qp,{})]})}gr.createRoot(document.getElementById(`root`)).render((0,$.jsx)(w.StrictMode,{children:(0,$.jsx)(In,{basename:`/woodpackers-tree-service/`,children:(0,$.jsx)(mm,{})})}));
+            `,children:`Terms & Conditions`}),(0,$.jsxs)(`p`,{className:`text-gray-600 mb-8`,children:[(0,$.jsx)(`strong`,{children:`Effective Date:`}),` `,`January 19, 2025`,` | `,(0,$.jsx)(`strong`,{children:`Last Updated:`}),` `,`July 28, 2026`]}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:[`Welcome to `,(0,$.jsx)(`strong`,{children:`Woodpeckers Tree Service`}),`. By accessing this website or using our services, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our website or services.`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`1. Business Identity`}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:[`These Terms and Conditions govern your use of services provided by`,(0,$.jsx)(`strong`,{children:` Woodpeckers Tree Service`}),`.`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`br`,{}),`Contact details:`,(0,$.jsx)(`br`,{}),`Address: [Company Address]`,(0,$.jsx)(`br`,{}),`Phone: [Company Phone Number]`,(0,$.jsx)(`br`,{}),`Email: [Company Email]`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`2. Age Requirement (18+)`}),(0,$.jsx)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:`By using this website or requesting our services, including SMS communications, you confirm that you are at least 18 years old.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`3. Terminology`}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed mb-8`,children:[`"Client," "You," and "Your" refers to the user of this website.`,(0,$.jsx)(`br`,{}),`"The Company," "We," "Our," and "Us" refers to Woodpeckers Tree Service.`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`4. SMS Messaging Terms of Service`}),(0,$.jsx)(`p`,{className:`text-gray-700 leading-relaxed mb-4`,children:`By providing your phone number and accepting SMS consent through our contact forms, you agree to receive text messages from Woodpeckers Tree Service.`}),(0,$.jsxs)(`ul`,{className:`list-disc pl-6 text-gray-700 space-y-2 mb-6`,children:[(0,$.jsx)(`li`,{children:`Free estimate confirmations`}),(0,$.jsx)(`li`,{children:`Scheduling notifications`}),(0,$.jsx)(`li`,{children:`Appointment reminders`}),(0,$.jsx)(`li`,{children:`Project updates`}),(0,$.jsx)(`li`,{children:`Customer support communications`}),(0,$.jsx)(`li`,{children:`Service-related announcements`})]}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4a. Message Frequency`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-6`,children:`Message frequency varies depending on your service requests, appointments, and communication with us.`}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4b. Message & Data Rates`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-6`,children:`Message and data rates may apply depending on your mobile carrier and service plan. Woodpeckers Tree Service is not responsible for carrier charges.`}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4c. How to Opt Out (STOP)`}),(0,$.jsxs)(`p`,{className:`text-gray-700 mb-6`,children:[`You can stop receiving SMS messages at any time by replying`,(0,$.jsx)(`strong`,{children:` STOP `}),`to any message received from us.`]}),(0,$.jsx)(`h3`,{className:`text-xl font-black text-[#07110C] mb-3`,children:`4d. How to Get Help (HELP)`}),(0,$.jsxs)(`p`,{className:`text-gray-700 mb-8`,children:[`For help with SMS communications, reply`,(0,$.jsx)(`strong`,{children:` HELP `}),`or contact us:`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`br`,{}),`Phone: [Company Phone Number]`,(0,$.jsx)(`br`,{}),`Email: [Company Email]`]}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`5. Cookies`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We use cookies and similar technologies to improve website functionality and user experience. Cookies are handled according to our Privacy Policy.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`6. Intellectual Property & License`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`Unless otherwise stated, Woodpeckers Tree Service owns the content and materials on this website. You may not copy, reproduce, or distribute content without permission.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`7. Comments & User Content`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We reserve the right to remove inappropriate, offensive, or unauthorized user content.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`8. Content Liability`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We are not responsible for content on external websites that link to or from our website.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`9. Disclaimer`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`Woodpeckers Tree Service provides information and services to the best of our ability. We are not responsible for losses or damages resulting from website use or service usage.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`10. Changes to These Terms`}),(0,$.jsx)(`p`,{className:`text-gray-700 mb-8`,children:`We may update these Terms and Conditions at any time. Changes will be posted with an updated revision date.`}),(0,$.jsx)(`h2`,{className:`text-2xl font-black text-[#07110C] mb-4`,children:`11. Contact Information`}),(0,$.jsxs)(`p`,{className:`text-gray-700 leading-relaxed`,children:[(0,$.jsx)(`strong`,{children:`Company:`}),` Woodpeckers Tree Service`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`strong`,{children:`Address:`}),` [9950 County Rd, New York]`,(0,$.jsx)(`br`,{}),(0,$.jsx)(`strong`,{children:`Phone:`}),` [716-355-0028]`,(0,$.jsx)(`br`,{})]})]})})})}function pm(){return(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(em,{}),(0,$.jsx)(nm,{}),(0,$.jsx)(sm,{}),(0,$.jsx)(cm,{}),(0,$.jsx)(lm,{}),(0,$.jsx)(um,{})]})}function mm(){return(0,$.jsxs)($.Fragment,{children:[(0,$.jsx)(Zp,{}),(0,$.jsx)(`main`,{children:(0,$.jsxs)(Jt,{children:[(0,$.jsx)(Kt,{path:`/`,element:(0,$.jsx)(pm,{})}),(0,$.jsx)(Kt,{path:`/privacy`,element:(0,$.jsx)(dm,{})}),(0,$.jsx)(Kt,{path:`/terms`,element:(0,$.jsx)(fm,{})}),(0,$.jsx)(Kt,{path:`*`,element:(0,$.jsx)(pm,{})})]})}),(0,$.jsx)(Qp,{})]})}gr.createRoot(document.getElementById(`root`)).render((0,$.jsx)(w.StrictMode,{children:(0,$.jsx)(In,{basename:`/woodpackers-tree-service/`,children:(0,$.jsx)(mm,{})})}));
