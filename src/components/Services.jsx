@@ -171,7 +171,10 @@ function Services() {
                   <img
                     src={service.image}
                     alt={service.title}
+                    width="300"
+                    height="250"
                     loading="lazy"
+                    decoding="async"
                     className="
                       w-full
                       h-full
@@ -240,7 +243,6 @@ function Services() {
                       bg-[#C9A227]
                     "
                   />
-
 
                 </div>
 
