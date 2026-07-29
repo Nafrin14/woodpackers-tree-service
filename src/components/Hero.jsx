@@ -1,0 +1,555 @@
+import heroImage from "../assets/images/hero.webp";
+
+import { FiArrowRight } from "react-icons/fi";
+
+import { motion } from "framer-motion";
+
+
+function Hero() {
+
+
+  return (
+
+    <section
+
+      id="home"
+
+      className="
+      min-h-screen
+      bg-[#B8CBB0]
+      flex
+      items-center
+      overflow-hidden
+      relative
+      "
+
+    >
+
+
+
+
+
+      {/* Background Shapes */}
+
+
+
+      <motion.div
+
+        animate={{
+          y:[0,-30,0],
+          rotate:[0,10,0]
+        }}
+
+        transition={{
+          duration:8,
+          repeat:Infinity,
+          ease:"easeInOut"
+        }}
+
+        className="
+        absolute
+        -right-40
+        top-20
+        w-[550px]
+        h-[550px]
+        rounded-full
+        bg-[#8FAF7A]
+        opacity-50
+        "
+
+      />
+
+
+
+
+
+
+
+      <motion.div
+
+        animate={{
+          x:[0,40,0]
+        }}
+
+        transition={{
+          duration:10,
+          repeat:Infinity,
+          ease:"easeInOut"
+        }}
+
+        className="
+        absolute
+        left-10
+        bottom-20
+        w-40
+        h-40
+        rounded-full
+        bg-[#52734D]
+        opacity-20
+        "
+
+      />
+
+
+
+
+
+
+
+
+
+      <div
+
+        className="
+        max-w-[1400px]
+        mx-auto
+        px-6
+        lg:px-14
+        pt-32
+        w-full
+        relative
+        z-10
+        "
+
+      >
+
+
+
+
+
+        <div
+
+          className="
+          grid
+          lg:grid-cols-2
+          gap-20
+          items-center
+          "
+
+        >
+
+
+
+
+
+
+
+          {/* Content */}
+
+
+
+          <motion.div
+
+            initial={{
+              opacity:0,
+              x:-80
+            }}
+
+            animate={{
+              opacity:1,
+              x:0
+            }}
+
+            transition={{
+              duration:1
+            }}
+
+          >
+
+
+
+
+
+            <div
+
+              className="
+              flex
+              items-center
+              gap-4
+              mb-8
+              "
+
+            >
+
+
+              <span
+
+                className="
+                w-12
+                h-[1px]
+                bg-[#C9A227]
+                "
+
+              />
+
+
+
+              <p
+
+                className="
+                uppercase
+                tracking-[5px]
+                text-sm
+                text-[#355834]
+                "
+
+              >
+
+                Professional Tree Care
+
+              </p>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <h1
+
+              className="
+              text-[#123524]
+              text-6xl
+              md:text-7xl
+              lg:text-[88px]
+              font-serif
+              leading-[1.05]
+              "
+
+            >
+
+              Creating
+
+              <br/>
+
+              Timeless
+
+              <br/>
+
+              Landscapes.
+
+            </h1>
+
+
+
+
+
+
+
+
+
+            <motion.p
+
+              initial={{
+                opacity:0
+              }}
+
+              animate={{
+                opacity:1
+              }}
+
+              transition={{
+                delay:0.5,
+                duration:1
+              }}
+
+              className="
+              mt-8
+              max-w-xl
+              text-lg
+              text-[#364A3A]
+              leading-relaxed
+              "
+
+            >
+
+              Expert tree removal, trimming and complete
+              tree care services designed to protect your
+              property and enhance your outdoor environment.
+
+            </motion.p>
+
+
+
+
+
+
+
+
+
+            <motion.a
+
+              initial={{
+                opacity:0,
+                y:30
+              }}
+
+              animate={{
+                opacity:1,
+                y:0
+              }}
+
+              transition={{
+                delay:0.8
+              }}
+
+              href="#contact"
+
+
+              className="
+              mt-10
+              inline-flex
+              items-center
+              gap-3
+              bg-[#0F2A1D]
+              text-white
+              px-9
+              py-4
+              text-xs
+              uppercase
+              tracking-[2px]
+              hover:bg-[#526B45]
+              transition
+              "
+
+            >
+
+              Request Estimate
+
+              <FiArrowRight/>
+
+            </motion.a>
+
+
+
+
+
+
+
+          </motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {/* Image */}
+
+
+
+          <motion.div
+
+            initial={{
+              opacity:0,
+              scale:0.9
+            }}
+
+            animate={{
+              opacity:1,
+              scale:1
+            }}
+
+            transition={{
+              duration:1
+            }}
+
+            className="
+            relative
+            "
+
+          >
+
+
+
+
+
+
+            <div
+
+              className="
+              absolute
+              inset-0
+              bg-[#7F9D6A]
+              rounded-[180px_40px_180px_40px]
+              translate-x-6
+              translate-y-6
+              "
+
+            />
+
+
+
+
+
+
+
+
+
+            <motion.div
+
+              animate={{
+                scale:[1,1.03,1]
+              }}
+
+              transition={{
+                duration:8,
+                repeat:Infinity
+              }}
+
+              className="
+              relative
+              overflow-hidden
+              rounded-[180px_40px_180px_40px]
+              shadow-2xl
+              "
+
+            >
+
+
+
+              <img
+
+                src={heroImage}
+
+                alt="Professional tree service"
+
+                className="
+                w-full
+                h-[650px]
+                object-cover
+                "
+
+              />
+
+
+
+            </motion.div>
+
+
+
+
+
+
+
+
+
+            {/* Floating Card */}
+
+
+
+            <motion.div
+
+              animate={{
+                y:[0,-10,0]
+              }}
+
+              transition={{
+                duration:4,
+                repeat:Infinity
+              }}
+
+              className="
+              absolute
+              bottom-10
+              -left-10
+              bg-[#F8F3E8]
+              px-8
+              py-6
+              shadow-xl
+              rounded-2xl
+              "
+
+            >
+
+
+
+              <p
+
+                className="
+                text-xs
+                uppercase
+                tracking-[3px]
+                text-[#526B45]
+                "
+
+              >
+
+                Trusted Experts
+
+              </p>
+
+
+
+
+
+
+              <h3
+
+                className="
+                mt-2
+                text-xl
+                font-serif
+                text-[#123524]
+                "
+
+              >
+
+                Quality Tree Care
+
+              </h3>
+
+
+
+            </motion.div>
+
+
+
+
+
+
+
+
+          </motion.div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </section>
+
+
+  );
+
+}
+
+
+export default Hero;
